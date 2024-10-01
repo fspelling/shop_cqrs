@@ -1,0 +1,6 @@
+@Poc.ShopCqrs.API_HostAddress = http://localhost:5201
+
+GET {{Poc.ShopCqrs.API_HostAddress}}/
+Accept: application/json
+
+###

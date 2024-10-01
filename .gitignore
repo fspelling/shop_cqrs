@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Poc.ShopCqrs/.vs
+/Poc.ShopCqrs/Poc.ShopCqrs.API/obj
+/Poc.ShopCqrs/Poc.ShopCqrs.Application/obj/Debug/net8.0
+/Poc.ShopCqrs/Poc.ShopCqrs.Application/obj
+/Poc.ShopCqrs/Poc.ShopCqrs.Domain/bin/Debug/net8.0
+/Poc.ShopCqrs/Poc.ShopCqrs.Domain/obj
+/Poc.ShopCqrs/Poc.ShopCqrs.Service/obj
+/Poc.ShopCqrs/Poc.ShopCqrs.Sql/obj

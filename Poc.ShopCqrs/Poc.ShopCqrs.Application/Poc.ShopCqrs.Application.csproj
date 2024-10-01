@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\Responses\Base\" />
+    <Folder Include="Queries\Requests\" />
+    <Folder Include="Queries\Responses\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Poc.ShopCqrs.Domain\Poc.ShopCqrs.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
