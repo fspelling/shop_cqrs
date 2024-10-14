@@ -10,3 +10,6 @@
 /Poc.ShopCqrs/Poc.ShopCqrs.Domain/obj
 /Poc.ShopCqrs/Poc.ShopCqrs.Service/obj
 /Poc.ShopCqrs/Poc.ShopCqrs.Sql/obj
+/Poc.ShopCqrs/Poc.ShopCqrs.API/bin/Debug/net8.0
+/Poc.ShopCqrs/Poc.ShopCqrs.Application/bin/Debug/net8.0
+/Poc.ShopCqrs/Poc.ShopCqrs.Sql/bin/Debug/net8.0

@@ -1,7 +1,7 @@
 ﻿using Poc.ShopCqrs.Domain.Entity;
-using Poc.ShopCqrs.Domain.Interfaces.Repository.Base;
+using Poc.ShopCqrs.Sql.Repository.Interfaces.Base;
 
-namespace Poc.ShopCqrs.Domain.Interfaces.Repository
+namespace Poc.ShopCqrs.Sql.Repository.Interfaces
 {
     public interface ICustomerRepository : IRepositoryBase<Customer>
     {

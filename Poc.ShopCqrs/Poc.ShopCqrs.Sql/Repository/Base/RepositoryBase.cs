@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Poc.ShopCqrs.Domain.Entity.Base;
-using Poc.ShopCqrs.Domain.Interfaces.Repository.Base;
+using Poc.ShopCqrs.Sql.Repository.Interfaces.Base;
 
 namespace Poc.ShopCqrs.Sql.Repository.Base
 {

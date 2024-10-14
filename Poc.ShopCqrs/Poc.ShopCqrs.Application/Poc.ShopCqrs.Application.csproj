@@ -8,12 +8,16 @@
 
   <ItemGroup>
     <Folder Include="Commands\Responses\Base\" />
-    <Folder Include="Queries\Requests\" />
-    <Folder Include="Queries\Responses\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Poc.ShopCqrs.Domain\Poc.ShopCqrs.Domain.csproj" />
+    <ProjectReference Include="..\Poc.ShopCqrs.Service\Poc.ShopCqrs.Service.csproj" />
+    <ProjectReference Include="..\Poc.ShopCqrs.Sql\Poc.ShopCqrs.Sql.csproj" />
   </ItemGroup>
 
 </Project>
