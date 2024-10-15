@@ -1,4 +1,4 @@
-﻿namespace Poc.ShopCqrs.Application.Queries.Responses
+﻿namespace Poc.ShopCqrs.Application.Customer.Queries.Responses
 {
     public class FindCustomerByIdResponse
     {

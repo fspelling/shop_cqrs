@@ -1,7 +1,7 @@
 ﻿using MediatR;
-using Poc.ShopCqrs.Application.Commands.Responses;
+using Poc.ShopCqrs.Application.Customer.Commands.Responses;
 
-namespace Poc.ShopCqrs.Application.Commands.Requests
+namespace Poc.ShopCqrs.Application.Customer.Commands.Requests
 {
     public class CreateCustomerRequest : IRequest<CreateCustomerResponse>
     {

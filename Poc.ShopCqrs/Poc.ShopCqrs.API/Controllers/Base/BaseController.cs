@@ -1,6 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Poc.ShopCqrs.Application.ViewModel;
+using Poc.ShopCqrs.API.ViewModel;
 using System.Net;
 
 namespace Poc.ShopCqrs.API.Controllers.Base

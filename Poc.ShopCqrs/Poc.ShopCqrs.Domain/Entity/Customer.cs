@@ -2,9 +2,9 @@
 
 namespace Poc.ShopCqrs.Domain.Entity
 {
-    public class Customer(string nome, string email) : EntityBase
+    public class Customer : EntityBase
     {
-        public string Name { get; private set; } = nome;
-        public string Email { get; private set; } = email;
+        public required string Name { get; set; }
+        public required string Email { get; set; }
     }
 }

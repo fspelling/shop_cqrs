@@ -20,7 +20,7 @@ builder.Services.AddCors(options =>
 
 builder.ConfigureEntityFrameworkSql();
 builder.ConfigureInjectDependency();
-builder.ConfigureValidators();
+//builder.ConfigureValidators();
 
 var app = builder.Build();
 

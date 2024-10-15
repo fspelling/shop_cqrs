@@ -5,14 +5,20 @@ namespace Poc.ShopCqrs.Domain.Extensions
 {
     public static class ServiceCollectionExtension
     {
-        public static void AddInjectServicesFromAssembly(this IServiceCollection services, Assembly assembly)
+        public static void AddInjectServicesFromAssembly(this IServiceCollection services, List<Assembly> assemblys)
         {
-            var servicesTypes = assembly.GetTypes().Where(t => t.IsClass && !t.IsAbstract && t.GetInterfaces().Any()).ToList();
-
-            servicesTypes.ForEach(type =>
+            assemblys.ForEach(assembly =>
             {
-                var interfaces = type.GetInterfaces().ToList();
-                interfaces.ForEach(@interface => services.AddScoped(@interface, type));
+                var servicesTypes = assembly.GetTypes().Where(t => t.IsClass &&
+                                                               !t.IsAbstract &&
+                                                               !t.IsGenericType &&
+                                                               t.GetInterfaces().Any()).ToList();
+
+                servicesTypes.ForEach(type =>
+                {
+                    var interfaces = type.GetInterfaces().ToList();
+                    interfaces.ForEach(@interface => services.AddScoped(@interface, type));
+                });
             });
         }
     }

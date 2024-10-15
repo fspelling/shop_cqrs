@@ -4,9 +4,12 @@ using Poc.ShopCqrs.Sql.EntityConfiguration;
 
 namespace Poc.ShopCqrs.Sql
 {
-    public class ShopDbContext(DbContextOptions<ShopDbContext> options) : DbContext(options)
+    public class ShopDbContext : DbContext
     {
         public DbSet<Customer> Customers { get; set; }
+
+        public ShopDbContext(DbContextOptions<ShopDbContext> options) : base(options)
+            => Database.EnsureCreated();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

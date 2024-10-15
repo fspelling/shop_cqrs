@@ -1,11 +1,11 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Poc.ShopCqrs.API.Controllers.Base;
-using Poc.ShopCqrs.Application.Commands.Requests;
-using Poc.ShopCqrs.Application.Commands.Responses;
-using Poc.ShopCqrs.Application.Queries.Requests;
-using Poc.ShopCqrs.Application.Queries.Responses;
-using Poc.ShopCqrs.Application.ViewModel;
+using Poc.ShopCqrs.API.ViewModel;
+using Poc.ShopCqrs.Application.Customer.Commands.Requests;
+using Poc.ShopCqrs.Application.Customer.Commands.Responses;
+using Poc.ShopCqrs.Application.Customer.Queries.Requests;
+using Poc.ShopCqrs.Application.Customer.Queries.Responses;
 using Poc.ShopCqrs.Domain.Exceptions;
 
 namespace Poc.ShopCqrs.API.Controllers

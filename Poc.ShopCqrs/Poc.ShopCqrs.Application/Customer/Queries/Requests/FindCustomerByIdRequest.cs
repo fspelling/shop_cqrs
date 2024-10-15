@@ -1,7 +1,7 @@
 ﻿using MediatR;
-using Poc.ShopCqrs.Application.Queries.Responses;
+using Poc.ShopCqrs.Application.Customer.Queries.Responses;
 
-namespace Poc.ShopCqrs.Application.Queries.Requests
+namespace Poc.ShopCqrs.Application.Customer.Queries.Requests
 {
     public class FindCustomerByIdRequest : IRequest<FindCustomerByIdResponse>
     {
