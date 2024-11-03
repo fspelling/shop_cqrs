@@ -2,9 +2,9 @@
 using MediatR;
 using Poc.ShopCqrs.Application.Customer.Queries.Requests;
 using Poc.ShopCqrs.Application.Customer.Queries.Responses;
-using Poc.ShopCqrs.Cache.Interfaces;
 using Poc.ShopCqrs.Domain.Exceptions;
 using Poc.ShopCqrs.Domain.Extensions;
+using Poc.ShopCqrs.Domain.Interfaces.Cache;
 
 namespace Poc.ShopCqrs.Application.Customer.Queries.Handlers
 {

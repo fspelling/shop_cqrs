@@ -1,6 +1,6 @@
-﻿using Poc.ShopCqrs.Service.Interfaces;
+﻿using Poc.ShopCqrs.Domain.Interfaces.Service;
 
-namespace Poc.ShopCqrs.Service.Services
+namespace Poc.ShopCqrs.Service
 {
     public class EmailService : IEmailService
     {

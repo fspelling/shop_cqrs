@@ -10,4 +10,8 @@
     <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.10" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Poc.ShopCqrs.Domain\Poc.ShopCqrs.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

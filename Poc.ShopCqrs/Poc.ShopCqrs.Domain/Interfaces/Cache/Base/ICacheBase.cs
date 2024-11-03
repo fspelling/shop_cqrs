@@ -1,4 +1,4 @@
-﻿namespace Poc.ShopCqrs.Cache.Interfaces.Base
+﻿namespace Poc.ShopCqrs.Domain.Interfaces.Cache.Base
 {
     public interface ICacheBase<T>
     {

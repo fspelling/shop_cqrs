@@ -1,6 +1,6 @@
 ﻿using Poc.ShopCqrs.Domain.Entity;
+using Poc.ShopCqrs.Domain.Interfaces.Repository;
 using Poc.ShopCqrs.Sql.Repository.Base;
-using Poc.ShopCqrs.Sql.Repository.Interfaces;
 
 namespace Poc.ShopCqrs.Sql.Repository
 {

@@ -5,9 +5,9 @@ using Poc.ShopCqrs.Application.Customer.Commands.Responses;
 using Poc.ShopCqrs.Application.Customer.Events;
 using Poc.ShopCqrs.Domain.Exceptions;
 using Poc.ShopCqrs.Domain.Extensions;
+using Poc.ShopCqrs.Domain.Interfaces.Repository;
+using Poc.ShopCqrs.Domain.Interfaces.Service;
 using Poc.ShopCqrs.Domain.Messaging;
-using Poc.ShopCqrs.Service.Interfaces;
-using Poc.ShopCqrs.Sql.Repository.Interfaces;
 using EntityDb = Poc.ShopCqrs.Domain.Entity;
 
 namespace Poc.ShopCqrs.Application.Customer.Commands.Handlers

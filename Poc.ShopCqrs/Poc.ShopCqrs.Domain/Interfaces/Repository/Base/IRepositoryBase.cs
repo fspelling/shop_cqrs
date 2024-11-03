@@ -1,6 +1,6 @@
 ﻿using Poc.ShopCqrs.Domain.Entity.Base;
 
-namespace Poc.ShopCqrs.Sql.Repository.Interfaces.Base
+namespace Poc.ShopCqrs.Domain.Interfaces.Repository.Base
 {
     public interface IRepositoryBase<Entity> where Entity : EntityBase
     {

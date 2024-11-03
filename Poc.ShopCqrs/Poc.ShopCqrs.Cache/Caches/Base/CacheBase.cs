@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Caching.Distributed;
-using Poc.ShopCqrs.Cache.Interfaces.Base;
+using Poc.ShopCqrs.Domain.Interfaces.Cache.Base;
 using System.Text.Json;
 
 namespace Poc.ShopCqrs.Cache.Caches.Base

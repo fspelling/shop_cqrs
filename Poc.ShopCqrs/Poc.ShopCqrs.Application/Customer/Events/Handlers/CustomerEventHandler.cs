@@ -1,7 +1,8 @@
 ﻿using MediatR;
-using Poc.ShopCqrs.Cache.Interfaces;
 using Poc.ShopCqrs.Domain.Exceptions;
-using Poc.ShopCqrs.Sql.Repository.Interfaces;
+using Poc.ShopCqrs.Domain.Interfaces.Cache;
+using Poc.ShopCqrs.Domain.Interfaces.Repository;
+using modelCache = Poc.ShopCqrs.Domain.ModelCache;
 
 namespace Poc.ShopCqrs.Application.Customer.Events.Handlers
 {
@@ -17,9 +18,9 @@ namespace Poc.ShopCqrs.Application.Customer.Events.Handlers
             if (customerCriado is null)
                 throw new CustomerException("Cliente nao encontrado na base.");
 
-            var customerCache = new Poc.ShopCqrs.Cache.ModelCache.Customer
-            {
-                ID = notification.CustomerID,
+            var customerCache = new modelCache.Customer
+            { 
+                ID = notification.CustomerID, 
                 Name = customerCriado.Name,
                 Email = customerCriado.Email
             };

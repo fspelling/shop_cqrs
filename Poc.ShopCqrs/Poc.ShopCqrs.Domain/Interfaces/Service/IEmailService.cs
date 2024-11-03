@@ -1,4 +1,4 @@
-﻿namespace Poc.ShopCqrs.Service.Interfaces
+﻿namespace Poc.ShopCqrs.Domain.Interfaces.Service
 {
     public interface IEmailService
     {
