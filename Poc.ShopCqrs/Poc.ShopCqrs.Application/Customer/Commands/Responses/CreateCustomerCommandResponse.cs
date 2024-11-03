@@ -2,7 +2,7 @@
 
 namespace Poc.ShopCqrs.Application.Customer.Commands.Responses
 {
-    public class CreateCustomerResponse
+    public class CreateCustomerCommandResponse
     {
         public required EntityDb.Customer Customer { get; set; }
         public DateTime DateCriacao { get; set; }

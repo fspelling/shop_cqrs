@@ -1,6 +1,6 @@
-﻿namespace Poc.ShopCqrs.Application.Customer.Queries.Responses
+﻿namespace Poc.ShopCqrs.Application.Customer.ViewModel
 {
-    public class FindCustomerByIdResponse
+    public class CustomerResponseViewModel
     {
         public required string Id { get; set; }
         public required string Name { get; set; }

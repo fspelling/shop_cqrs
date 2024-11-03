@@ -1,4 +1,4 @@
-using Poc.ShopCqrs.API;
+using Poc.ShopCqrs.API.Configurations;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,9 +18,9 @@ builder.Services.AddCors(options =>
         .AllowCredentials());
 });
 
-builder.ConfigureEntityFrameworkSql();
 builder.ConfigureInjectDependency();
-//builder.ConfigureValidators();
+builder.ConfigureEntityFrameworkSql();
+builder.ConfigureRedis();
 
 var app = builder.Build();
 

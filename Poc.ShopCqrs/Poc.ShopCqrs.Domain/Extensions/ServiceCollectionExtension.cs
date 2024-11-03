@@ -12,7 +12,8 @@ namespace Poc.ShopCqrs.Domain.Extensions
                 var servicesTypes = assembly.GetTypes().Where(t => t.IsClass &&
                                                                !t.IsAbstract &&
                                                                !t.IsGenericType &&
-                                                               t.GetInterfaces().Any()).ToList();
+                                                               t.GetInterfaces().Any() &&
+                                                               !typeof(Exception).IsAssignableFrom(t)).ToList();
 
                 servicesTypes.ForEach(type =>
                 {

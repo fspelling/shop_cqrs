@@ -1,26 +1,25 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Reflection;
+using Poc.ShopCqrs.Application.Configuration;
 using Poc.ShopCqrs.Domain.Extensions;
-using Poc.ShopCqrs.Sql;
-using System.Reflection;
 
-namespace Poc.ShopCqrs.API
+namespace Poc.ShopCqrs.API.Configurations
 {
-    public static class ProgramExtension
+    public static class IocConfig
     {
         public static void ConfigureInjectDependency(this WebApplicationBuilder builder)
         {
             var assemblys = new List<Assembly>
-            { 
+            {
+                Assembly.Load("Poc.ShopCqrs.Domain"),
                 Assembly.Load("Poc.ShopCqrs.Sql"),
+                Assembly.Load("Poc.ShopCqrs.Cache"),
                 Assembly.Load("Poc.ShopCqrs.Service"),
                 Assembly.Load("Poc.ShopCqrs.Application"),
             };
 
             builder.Services.AddInjectServicesFromAssembly(assemblys);
+            builder.Services.AddAutoMapper(typeof(MappingProfile));
             builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(Assembly.Load("Poc.ShopCqrs.Application")));
         }
-
-        public static void ConfigureEntityFrameworkSql(this WebApplicationBuilder builder)
-            => builder.Services.AddDbContext<ShopDbContext>(db => db.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
     }
 }

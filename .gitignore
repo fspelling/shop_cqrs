@@ -14,3 +14,5 @@
 /Poc.ShopCqrs/Poc.ShopCqrs.Application/bin/Debug/net8.0
 /Poc.ShopCqrs/Poc.ShopCqrs.Sql/bin/Debug/net8.0
 /Poc.ShopCqrs/Poc.ShopCqrs.Service/bin/Debug/net8.0
+/Poc.ShopCqrs/Poc.ShopCqrs.Cache/bin/Debug/net8.0
+/Poc.ShopCqrs/Poc.ShopCqrs.Cache/obj
