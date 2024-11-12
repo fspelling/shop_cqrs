@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using Poc.ShopCqrs.Application.Customer.Commands.Requests;
+using Poc.ShopCqrs.Application.Customer.Commands;
+using Poc.ShopCqrs.Application.Customer.Model.Views;
 using Poc.ShopCqrs.Application.Customer.Queries.Responses;
-using Poc.ShopCqrs.Application.Customer.ViewModel;
 
 namespace Poc.ShopCqrs.Application.Configuration
 {
@@ -9,7 +9,7 @@ namespace Poc.ShopCqrs.Application.Configuration
     {
         public MappingProfile()
         {
-            CreateMap<CustomerViewModel, CreateCustomerCommandRequest>();
+            CreateMap<CustomerViewModel, CreateCustomerCommand>();
             CreateMap<FindCustomerByIdQueryResponse, CustomerViewModel>();
         }
     }

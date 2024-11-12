@@ -1,6 +1,6 @@
-﻿namespace Poc.ShopCqrs.Application.Customer.ViewModel
+﻿namespace Poc.ShopCqrs.Application.Customer.Model.Inputs
 {
-    public class CustomerViewModel
+    public class CustomerInputModel
     {
         public required string Name { get; set; }
         public required string Email { get; set; }

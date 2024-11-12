@@ -1,6 +1,6 @@
 ﻿using Poc.ShopCqrs.Domain.Messaging;
 
-namespace Poc.ShopCqrs.Application.Customer.Events
+namespace Poc.ShopCqrs.Domain.Events
 {
     public class CustomerCreatedEvent : Event
     {

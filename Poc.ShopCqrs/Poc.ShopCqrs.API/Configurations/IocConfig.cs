@@ -11,9 +11,9 @@ namespace Poc.ShopCqrs.API.Configurations
             var assemblys = new List<Assembly>
             {
                 Assembly.Load("Poc.ShopCqrs.Domain"),
+                Assembly.Load("Poc.ShopCqrs.Bus"),
                 Assembly.Load("Poc.ShopCqrs.Sql"),
                 Assembly.Load("Poc.ShopCqrs.Cache"),
-                Assembly.Load("Poc.ShopCqrs.Service"),
                 Assembly.Load("Poc.ShopCqrs.Application"),
             };
 

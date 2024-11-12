@@ -2,7 +2,7 @@
 
 namespace Poc.ShopCqrs.Domain.Messaging
 {
-    public abstract class Command<TResponse> : IRequest<TResponse>
+    public abstract class Command : Message, IRequest
     {
         public required TimeSpan TimeStamp { get; set; } = TimeSpan.Zero;
     }

@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Poc.ShopCqrs.Domain.Events;
 using Poc.ShopCqrs.Domain.Exceptions;
 using Poc.ShopCqrs.Domain.Interfaces.Cache;
 using Poc.ShopCqrs.Domain.Interfaces.Repository;

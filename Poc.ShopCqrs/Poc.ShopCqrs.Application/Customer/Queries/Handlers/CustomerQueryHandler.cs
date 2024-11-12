@@ -1,6 +1,5 @@
 ﻿using FluentValidation;
 using MediatR;
-using Poc.ShopCqrs.Application.Customer.Queries.Requests;
 using Poc.ShopCqrs.Application.Customer.Queries.Responses;
 using Poc.ShopCqrs.Domain.Exceptions;
 using Poc.ShopCqrs.Domain.Extensions;
@@ -11,15 +10,15 @@ namespace Poc.ShopCqrs.Application.Customer.Queries.Handlers
     public class CustomerQueryHandler
     (
         ICustomerCache customerCache,
-        IValidator<FindCustomerByIdQueryRequest> findCustomerByIdRequestValidator
-    ) : IRequestHandler<FindCustomerByIdQueryRequest, FindCustomerByIdQueryResponse>
+        IValidator<FindCustomerByIdQuery> findCustomerByIdRequestValidator
+    ) : IRequestHandler<FindCustomerByIdQuery, FindCustomerByIdQueryResponse>
     {
         private readonly ICustomerCache _customerCache = customerCache;
-        private readonly IValidator<FindCustomerByIdQueryRequest> _findCustomerByIdRequestValidator = findCustomerByIdRequestValidator;
+        private readonly IValidator<FindCustomerByIdQuery> _findCustomerByIdRequestValidator = findCustomerByIdRequestValidator;
 
-        public async Task<FindCustomerByIdQueryResponse> Handle(FindCustomerByIdQueryRequest request, CancellationToken cancellationToken)
+        public async Task<FindCustomerByIdQueryResponse> Handle(FindCustomerByIdQuery request, CancellationToken cancellationToken)
         {
-            await _findCustomerByIdRequestValidator.ValidarRequestException<FindCustomerByIdQueryRequest, CustomerException>(request);
+            await _findCustomerByIdRequestValidator.ValidarRequestException<FindCustomerByIdQuery, CustomerException>(request);
 
             var customer = await _customerCache.GetCache(request.Id);
 
