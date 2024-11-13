@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Poc.ShopCqrs.Domain.Core.Events;
-using Poc.ShopCqrs.Sql.Context;
+using Poc.ShopCqrs.Data.Context;
 
-namespace Poc.ShopCqrs.Sql.Repository.EventSourcing
+namespace Poc.ShopCqrs.Data.Repository.EventSourcing
 {
     public class EventStoreRepository(EventStoreContext eventStoreContext) : IEventStoreRepository
     {

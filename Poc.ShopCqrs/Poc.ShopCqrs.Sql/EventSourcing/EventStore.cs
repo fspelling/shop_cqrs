@@ -1,9 +1,9 @@
 ﻿using Newtonsoft.Json;
 using Poc.ShopCqrs.Domain.Core.Events;
 using Poc.ShopCqrs.Domain.Core.Messaging;
-using Poc.ShopCqrs.Sql.Repository.EventSourcing;
+using Poc.ShopCqrs.Data.Repository.EventSourcing;
 
-namespace Poc.ShopCqrs.Sql.EventSourcing
+namespace Poc.ShopCqrs.Data.EventSourcing
 {
     public class EventStore(IEventStoreRepository eventStoreRepository) : IEventStore
     {

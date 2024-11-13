@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Poc.ShopCqrs.Domain.Core.Events;
 
-namespace Poc.ShopCqrs.Sql.Mappings
+namespace Poc.ShopCqrs.Data.Mappings
 {
     public class StoredEventMap : IEntityTypeConfiguration<StoredEvent>
     {

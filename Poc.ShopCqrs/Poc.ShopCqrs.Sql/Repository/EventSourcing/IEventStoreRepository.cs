@@ -1,6 +1,6 @@
 ﻿using Poc.ShopCqrs.Domain.Core.Events;
 
-namespace Poc.ShopCqrs.Sql.Repository.EventSourcing
+namespace Poc.ShopCqrs.Data.Repository.EventSourcing
 {
     public interface IEventStoreRepository : IDisposable
     {

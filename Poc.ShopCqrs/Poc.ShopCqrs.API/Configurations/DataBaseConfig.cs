@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Poc.ShopCqrs.Sql.Context;
+using Poc.ShopCqrs.Data.Context;
 
 namespace Poc.ShopCqrs.API.Configurations
 {

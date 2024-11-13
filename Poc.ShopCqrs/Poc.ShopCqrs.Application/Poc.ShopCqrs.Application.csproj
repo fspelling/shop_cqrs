@@ -17,7 +17,7 @@
     <ProjectReference Include="..\Poc.ShopCqrs.Cache\Poc.ShopCqrs.Cache.csproj" />
     <ProjectReference Include="..\Poc.ShopCqrs.Domain.Core\Poc.ShopCqrs.Domain.Core.csproj" />
     <ProjectReference Include="..\Poc.ShopCqrs.Domain\Poc.ShopCqrs.Domain.csproj" />
-    <ProjectReference Include="..\Poc.ShopCqrs.Sql\Poc.ShopCqrs.Sql.csproj" />
+    <ProjectReference Include="..\Poc.ShopCqrs.Sql\Poc.ShopCqrs.Data.csproj" />
   </ItemGroup>
 
 </Project>

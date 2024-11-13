@@ -13,7 +13,7 @@ namespace Poc.ShopCqrs.API.Configurations
                 Assembly.Load("Poc.ShopCqrs.Domain"),
                 Assembly.Load("Poc.ShopCqrs.Domain.Core"),
                 Assembly.Load("Poc.ShopCqrs.Bus"),
-                Assembly.Load("Poc.ShopCqrs.Sql"),
+                Assembly.Load("Poc.ShopCqrs.Data"),
                 Assembly.Load("Poc.ShopCqrs.Cache"),
                 Assembly.Load("Poc.ShopCqrs.Application"),
             };

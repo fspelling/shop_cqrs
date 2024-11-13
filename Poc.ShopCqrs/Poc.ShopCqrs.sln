@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poc.ShopCqrs.Domain", "Poc.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Data", "3.1 - Data", "{26D2FC70-0902-42C0-ADB9-05CD5F5CF1F3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poc.ShopCqrs.Sql", "Poc.ShopCqrs.Sql\Poc.ShopCqrs.Sql.csproj", "{02B4E229-7401-4C14-BAA1-56DA691707D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poc.ShopCqrs.Data", "Poc.ShopCqrs.Sql\Poc.ShopCqrs.Data.csproj", "{02B4E229-7401-4C14-BAA1-56DA691707D7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poc.ShopCqrs.Application", "Poc.ShopCqrs.Application\Poc.ShopCqrs.Application.csproj", "{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}"
 EndProject
@@ -25,7 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - CrossCutting", "3.2 -
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poc.ShopCqrs.Bus", "Poc.ShopCqrs.Bus\Poc.ShopCqrs.Bus.csproj", "{8C7427F1-D026-45A5-9D74-354D1A3D3E58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poc.ShopCqrs.Domain.Core", "Poc.ShopCqrs.Domain.Core\Poc.ShopCqrs.Domain.Core.csproj", "{E13DCC00-7766-4EAA-8D05-87E25146EEE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poc.ShopCqrs.Domain.Core", "Poc.ShopCqrs.Domain.Core\Poc.ShopCqrs.Domain.Core.csproj", "{E13DCC00-7766-4EAA-8D05-87E25146EEE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

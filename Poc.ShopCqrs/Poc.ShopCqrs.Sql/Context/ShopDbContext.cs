@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Poc.ShopCqrs.Domain.Entity;
-using Poc.ShopCqrs.Sql.Mappings;
+using Poc.ShopCqrs.Data.Mappings;
 
-namespace Poc.ShopCqrs.Sql.Context
+namespace Poc.ShopCqrs.Data.Context
 {
     public class ShopDbContext : DbContext
     {

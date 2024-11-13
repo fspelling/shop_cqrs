@@ -1,9 +1,9 @@
 ﻿using Poc.ShopCqrs.Domain.Entity;
 using Poc.ShopCqrs.Domain.Interfaces.Repository;
-using Poc.ShopCqrs.Sql.Context;
-using Poc.ShopCqrs.Sql.Repository.Base;
+using Poc.ShopCqrs.Data.Context;
+using Poc.ShopCqrs.Data.Repository.Base;
 
-namespace Poc.ShopCqrs.Sql.Repository
+namespace Poc.ShopCqrs.Data.Repository
 {
     public class CustomerRepository(ShopDbContext dbContext) : RepositoryBase<Customer>(dbContext), ICustomerRepository
     {

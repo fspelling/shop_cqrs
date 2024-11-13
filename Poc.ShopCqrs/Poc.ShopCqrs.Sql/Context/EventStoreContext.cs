@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Poc.ShopCqrs.Domain.Core.Events;
-using Poc.ShopCqrs.Sql.Mappings;
+using Poc.ShopCqrs.Data.Mappings;
 
-namespace Poc.ShopCqrs.Sql.Context
+namespace Poc.ShopCqrs.Data.Context
 {
     public class EventStoreContext(DbContextOptions<EventStoreContext> options) : DbContext(options)
     {

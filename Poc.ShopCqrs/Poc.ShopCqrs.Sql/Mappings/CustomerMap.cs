@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Poc.ShopCqrs.Domain.Entity;
 
-namespace Poc.ShopCqrs.Sql.Mappings
+namespace Poc.ShopCqrs.Data.Mappings
 {
     public class CustomerMap : IEntityTypeConfiguration<Customer>
     {
