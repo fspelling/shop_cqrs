@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Poc.ShopCqrs.Domain.ViewModel;
+using Poc.ShopCqrs.Domain.Core.ViewModel;
 using System.Net;
 
 namespace Poc.ShopCqrs.API.Controllers.Base

@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
-namespace Poc.ShopCqrs.Domain.Extensions
+namespace Poc.ShopCqrs.Domain.Core.Extensions
 {
     public static class ServiceCollectionExtension
     {

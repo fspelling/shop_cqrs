@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace Poc.ShopCqrs.Domain.Extensions
+namespace Poc.ShopCqrs.Domain.Core.Extensions
 {
     public static class ValidatorExtension
     {

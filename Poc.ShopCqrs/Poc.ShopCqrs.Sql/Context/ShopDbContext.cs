@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Poc.ShopCqrs.Domain.Entity;
-using Poc.ShopCqrs.Sql.EntityConfiguration;
+using Poc.ShopCqrs.Sql.Mappings;
 
-namespace Poc.ShopCqrs.Sql
+namespace Poc.ShopCqrs.Sql.Context
 {
     public class ShopDbContext : DbContext
     {
@@ -13,7 +13,7 @@ namespace Poc.ShopCqrs.Sql
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfiguration(new CustomerConfiguration());
+            modelBuilder.ApplyConfiguration(new CustomerMap());
             base.OnModelCreating(modelBuilder);
         }
     }

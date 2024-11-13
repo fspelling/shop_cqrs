@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poc.ShopCqrs.Cache", "Poc.S
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - CrossCutting", "3.2 - CrossCutting", "{946CA98D-673B-4B8B-B44F-E88918854373}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poc.ShopCqrs.Bus", "Poc.ShopCqrs.Bus\Poc.ShopCqrs.Bus.csproj", "{8C7427F1-D026-45A5-9D74-354D1A3D3E58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poc.ShopCqrs.Bus", "Poc.ShopCqrs.Bus\Poc.ShopCqrs.Bus.csproj", "{8C7427F1-D026-45A5-9D74-354D1A3D3E58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poc.ShopCqrs.Domain.Core", "Poc.ShopCqrs.Domain.Core\Poc.ShopCqrs.Domain.Core.csproj", "{E13DCC00-7766-4EAA-8D05-87E25146EEE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{8C7427F1-D026-45A5-9D74-354D1A3D3E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C7427F1-D026-45A5-9D74-354D1A3D3E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C7427F1-D026-45A5-9D74-354D1A3D3E58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E13DCC00-7766-4EAA-8D05-87E25146EEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E13DCC00-7766-4EAA-8D05-87E25146EEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E13DCC00-7766-4EAA-8D05-87E25146EEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E13DCC00-7766-4EAA-8D05-87E25146EEE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +74,7 @@ Global
 		{B3F961C8-E384-4B10-A490-68626B228E66} = {26D2FC70-0902-42C0-ADB9-05CD5F5CF1F3}
 		{946CA98D-673B-4B8B-B44F-E88918854373} = {DD5D652B-FE88-47BA-8669-797130335866}
 		{8C7427F1-D026-45A5-9D74-354D1A3D3E58} = {946CA98D-673B-4B8B-B44F-E88918854373}
+		{E13DCC00-7766-4EAA-8D05-87E25146EEE9} = {C389A78F-9945-4B74-814B-1BABE5187F5B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {379097AD-2A06-4CA5-B32F-1FF35EBE4E11}

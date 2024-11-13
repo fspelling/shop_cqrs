@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using Poc.ShopCqrs.Domain.Messaging;
+using Poc.ShopCqrs.Domain.Core.Messaging;
 
 namespace Poc.ShopCqrs.Domain.Interfaces.EventBus
 {

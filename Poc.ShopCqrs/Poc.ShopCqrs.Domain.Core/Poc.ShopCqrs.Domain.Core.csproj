@@ -9,11 +9,6 @@
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="11.10.0" />
     <PackageReference Include="MediatR" Version="12.4.1" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Poc.ShopCqrs.Domain.Core\Poc.ShopCqrs.Domain.Core.csproj" />
   </ItemGroup>
 
 </Project>

@@ -5,9 +5,9 @@ using Poc.ShopCqrs.Application.Customer.Commands;
 using Poc.ShopCqrs.Application.Customer.Model.Inputs;
 using Poc.ShopCqrs.Application.Customer.Model.Views;
 using Poc.ShopCqrs.Application.Customer.Queries;
+using Poc.ShopCqrs.Domain.Core.ViewModel;
 using Poc.ShopCqrs.Domain.Exceptions;
 using Poc.ShopCqrs.Domain.Interfaces.EventBus;
-using Poc.ShopCqrs.Domain.ViewModel;
 using System.Net;
 
 namespace Poc.ShopCqrs.API.Controllers

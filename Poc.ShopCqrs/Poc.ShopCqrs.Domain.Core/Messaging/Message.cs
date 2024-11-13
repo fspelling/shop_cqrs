@@ -1,4 +1,4 @@
-﻿namespace Poc.ShopCqrs.Domain.Messaging
+﻿namespace Poc.ShopCqrs.Domain.Core.Messaging
 {
     public abstract class Message
     {

@@ -1,6 +1,6 @@
 ﻿using MediatR;
+using Poc.ShopCqrs.Domain.Core.Messaging;
 using Poc.ShopCqrs.Domain.Interfaces.EventBus;
-using Poc.ShopCqrs.Domain.Messaging;
 
 namespace Poc.ShopCqrs.Bus
 {

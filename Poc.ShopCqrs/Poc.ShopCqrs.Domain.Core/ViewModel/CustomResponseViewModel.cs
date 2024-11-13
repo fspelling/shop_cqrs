@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace Poc.ShopCqrs.Domain.ViewModel
+namespace Poc.ShopCqrs.Domain.Core.ViewModel
 {
     public class CustomResponseViewModel<T>(T result)
     {

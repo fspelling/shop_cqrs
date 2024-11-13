@@ -2,7 +2,7 @@
 using MediatR;
 using Poc.ShopCqrs.Domain.Events;
 using Poc.ShopCqrs.Domain.Exceptions;
-using Poc.ShopCqrs.Domain.Extensions;
+using Poc.ShopCqrs.Domain.Core.Extensions;
 using Poc.ShopCqrs.Domain.Interfaces.EventBus;
 using Poc.ShopCqrs.Domain.Interfaces.Repository;
 using EntityDb = Poc.ShopCqrs.Domain.Entity;

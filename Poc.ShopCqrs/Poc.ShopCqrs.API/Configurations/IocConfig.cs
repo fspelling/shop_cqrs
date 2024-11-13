@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 using Poc.ShopCqrs.Application.Configuration;
-using Poc.ShopCqrs.Domain.Extensions;
+using Poc.ShopCqrs.Domain.Core.Extensions;
 
 namespace Poc.ShopCqrs.API.Configurations
 {
@@ -11,6 +11,7 @@ namespace Poc.ShopCqrs.API.Configurations
             var assemblys = new List<Assembly>
             {
                 Assembly.Load("Poc.ShopCqrs.Domain"),
+                Assembly.Load("Poc.ShopCqrs.Domain.Core"),
                 Assembly.Load("Poc.ShopCqrs.Bus"),
                 Assembly.Load("Poc.ShopCqrs.Sql"),
                 Assembly.Load("Poc.ShopCqrs.Cache"),
