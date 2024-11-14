@@ -6,9 +6,6 @@
         public Guid AggregateId { get; protected set; }
 
         protected Message()
-        {
-            MessageType = GetType().Name;
-            AggregateId = Guid.NewGuid();
-        }
+            => MessageType = GetType().Name;
     }
 }

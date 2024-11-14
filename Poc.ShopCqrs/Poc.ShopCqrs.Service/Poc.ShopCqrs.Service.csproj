@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Poc.ShopCqrs.Domain.Core\Poc.ShopCqrs.Domain.Core.csproj" />
     <ProjectReference Include="..\Poc.ShopCqrs.Domain\Poc.ShopCqrs.Domain.csproj" />
   </ItemGroup>
 

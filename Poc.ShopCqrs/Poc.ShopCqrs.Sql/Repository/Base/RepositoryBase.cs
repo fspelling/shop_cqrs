@@ -15,7 +15,7 @@ namespace Poc.ShopCqrs.Data.Repository.Base
             await dbContext.SaveChangesAsync();
         }
 
-        public async Task<TEntity?> BuscarPorId(string id)
+        public async Task<TEntity?> BuscarPorId(Guid id)
             => await dbContext.Set<TEntity>().Where(e => e.ID == id).FirstOrDefaultAsync();
 
         public async Task Inserir(TEntity entidade)
@@ -27,7 +27,7 @@ namespace Poc.ShopCqrs.Data.Repository.Base
         public async Task<IList<TEntity>> Listar()
             => await dbContext.Set<TEntity>().ToListAsync();
 
-        public async Task Remover(string id)
+        public async Task Remover(Guid id)
         {
             var entidade = await dbContext.Set<TEntity>().Where(e => e.ID == id).FirstOrDefaultAsync();
 

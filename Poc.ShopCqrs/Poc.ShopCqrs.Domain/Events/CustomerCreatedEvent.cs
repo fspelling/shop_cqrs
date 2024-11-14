@@ -2,9 +2,9 @@
 
 namespace Poc.ShopCqrs.Domain.Events
 {
-    public class CustomerCreatedEvent : Event
+    public class CustomerCreatedEvent(Guid id) : Event
     {
-        public DateTime DataCriacao { get; set; } = DateTime.Now;
-        public required string CustomerID { get; set; }
+        public DateTime DataCriacao { get; private set; } = DateTime.Now;
+        public Guid CustomerID { get; private set; } = id;
     }
 }

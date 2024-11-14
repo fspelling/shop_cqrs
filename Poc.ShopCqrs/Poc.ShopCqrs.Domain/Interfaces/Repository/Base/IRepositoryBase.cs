@@ -7,7 +7,7 @@ namespace Poc.ShopCqrs.Domain.Interfaces.Repository.Base
         Task Inserir(Entity entidade);
         Task Atualizar(Entity entidade);
         Task<IList<Entity>> Listar();
-        Task<Entity?> BuscarPorId(string id);
-        Task Remover(string id);
+        Task<Entity?> BuscarPorId(Guid id);
+        Task Remover(Guid id);
     }
 }

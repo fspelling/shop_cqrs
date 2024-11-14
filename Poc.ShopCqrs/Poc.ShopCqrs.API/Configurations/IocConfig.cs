@@ -1,5 +1,6 @@
 ﻿using FluentValidation;
 using MediatR;
+using Microsoft.EntityFrameworkCore.Internal;
 using Poc.ShopCqrs.Application.Configuration;
 using Poc.ShopCqrs.Application.Customer.Commands;
 using Poc.ShopCqrs.Application.Customer.Commands.Handlers;
@@ -18,6 +19,9 @@ using Poc.ShopCqrs.Domain.Events;
 using Poc.ShopCqrs.Domain.Interfaces.Cache;
 using Poc.ShopCqrs.Domain.Interfaces.EventBus;
 using Poc.ShopCqrs.Domain.Interfaces.Repository;
+using Poc.ShopCqrs.Domain.Interfaces.Repository.EventSourcing;
+using Poc.ShopCqrs.Domain.Interfaces.Service;
+using Poc.ShopCqrs.Service;
 using System.Reflection;
 
 namespace Poc.ShopCqrs.API.Configurations
@@ -26,22 +30,11 @@ namespace Poc.ShopCqrs.API.Configurations
     {
         public static void ConfigureInjectDependency(this WebApplicationBuilder builder)
         {
-            //var assemblys = new List<Assembly>
-            //{
-            //    Assembly.Load("Poc.ShopCqrs.Domain"),
-            //    Assembly.Load("Poc.ShopCqrs.Domain.Core"),
-            //    Assembly.Load("Poc.ShopCqrs.Bus"),
-            //    Assembly.Load("Poc.ShopCqrs.Data"),
-            //    Assembly.Load("Poc.ShopCqrs.Cache"),
-            //    Assembly.Load("Poc.ShopCqrs.Application"),
-            //};
-
-            //builder.Services.AddInjectServicesFromAssembly(assemblys);
-
             builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(Assembly.Load("Poc.ShopCqrs.Application")));
 
             RegisterAutoMappers(builder.Services);
             RegisterBus(builder.Services);
+            RegisterServices(builder.Services);
             RegisterRepositorys(builder.Services);
             RegisterCache(builder.Services);
             RegisterDataEventSourcing(builder.Services);
@@ -76,6 +69,11 @@ namespace Poc.ShopCqrs.API.Configurations
         private static void RegisterQuerys(IServiceCollection services)
         {
             services.AddScoped<IRequestHandler<FindCustomerByIdQuery, FindCustomerByIdQueryResponse>, CustomerQueryHandler>();
+        }
+
+        private static void RegisterServices(IServiceCollection services)
+        {
+            services.AddScoped<IEventStoreService, EventStoreService>();
         }
 
         private static void RegisterRepositorys(IServiceCollection services)

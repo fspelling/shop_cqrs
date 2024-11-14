@@ -24,11 +24,10 @@ namespace Poc.ShopCqrs.Application.Customer.Commands.Handlers
         {
             await _createCustomerValidator.ValidarRequestException<CreateCustomerCommand, CustomerException>(request);
 
-            var customer = new EntityDb.Customer() { Name = request.Name, Email = request.Email };
-
+            var customer = new EntityDb.Customer(request.Name, request.Email);
             await _customerRepository.Inserir(customer);
 
-            await _eventBus.Publish(new CustomerCreatedEvent { CustomerID = customer.ID });
+            await _eventBus.Publish(new CustomerCreatedEvent(customer.ID));
         }
     }
 }

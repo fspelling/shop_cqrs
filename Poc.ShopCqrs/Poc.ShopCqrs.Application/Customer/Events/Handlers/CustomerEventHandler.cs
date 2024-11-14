@@ -26,7 +26,7 @@ namespace Poc.ShopCqrs.Application.Customer.Events.Handlers
                 Email = customerCriado.Email
             };
 
-            await _cache.SetCache(notification.CustomerID, customerCache);
+            await _cache.SetCache(notification.CustomerID.ToString(), customerCache);
         }
     }
 }

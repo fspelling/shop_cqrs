@@ -6,14 +6,15 @@ namespace Poc.ShopCqrs.API.Controllers.Base
 {
     public abstract class BaseController : ControllerBase
     {
-        #region METODOS AUXILAIRES
-
         protected ActionResult<CustomResponseViewModel<T>> CustomResponse<T>(T result)
             => Ok(new CustomResponseViewModel<T>(result));
 
+        protected ActionResult<CustomResponseViewModel> CustomResponse()
+            => Ok(new CustomResponseViewModel());
+
         protected ActionResult CustomResponseError(HttpStatusCode? statusCode = null, Exception? exception = null)
         {
-            var responseError = new CustomResponseViewModel<string>(null!)
+            var responseError = new CustomResponseViewModel()
             {
                 Error = true,
                 Mensagem = exception!.Message,
@@ -26,7 +27,5 @@ namespace Poc.ShopCqrs.API.Controllers.Base
                 _ => StatusCode((int)statusCode, responseError)
             };
         }
-
-        #endregion
     }
 }

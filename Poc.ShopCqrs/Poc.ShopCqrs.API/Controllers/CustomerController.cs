@@ -41,14 +41,14 @@ namespace Poc.ShopCqrs.API.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<CustomResponseViewModel<object>>> Create([FromBody] CustomerInputModel request)
+        public async Task<ActionResult<CustomResponseViewModel>> Create([FromBody] CustomerInputModel request)
         {
             try
             {
                 var mapperRequest = _mapper.Map<CreateCustomerCommand>(request);
                 await _eventBus.SendCommand(mapperRequest);
 
-                return CustomResponse<object>(null!);
+                return CustomResponse();
             }
             catch (CustomerException e)
             {
