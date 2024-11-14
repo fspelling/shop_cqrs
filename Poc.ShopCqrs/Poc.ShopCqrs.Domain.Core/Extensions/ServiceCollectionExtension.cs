@@ -5,20 +5,26 @@ namespace Poc.ShopCqrs.Domain.Core.Extensions
 {
     public static class ServiceCollectionExtension
     {
-        public static void AddInjectServicesFromAssembly(this IServiceCollection services, List<Assembly> assemblys)
+        public static void AddInjectServicesFromAssembly(this IServiceCollection services, List<Assembly> assemblies)
         {
-            assemblys.ForEach(assembly =>
+            assemblies.ForEach(assembly =>
             {
-                var servicesTypes = assembly.GetTypes().Where(t => t.IsClass &&
-                                                               !t.IsAbstract &&
-                                                               !t.IsGenericType &&
-                                                               t.GetInterfaces().Any() &&
-                                                               !typeof(Exception).IsAssignableFrom(t)).ToList();
+                var serviceTypes = assembly.GetTypes()
+                                           .Where(t => t.IsClass &&
+                                                       !t.IsAbstract &&
+                                                       !t.IsGenericType &&
+                                                       t.GetInterfaces().Any() &&
+                                                       !typeof(Exception).IsAssignableFrom(t))
+                                           .ToList();
 
-                servicesTypes.ForEach(type =>
+                serviceTypes.ForEach(type =>
                 {
-                    var interfaces = type.GetInterfaces().ToList();
-                    interfaces.ForEach(@interface => services.AddScoped(@interface, type));
+                    var interfaces = type.GetInterfaces();
+                    foreach (var @interface in interfaces)
+                    {
+                        if (!services.Any(s => s.ServiceType == @interface && s.ImplementationType == type))
+                            services.AddScoped(@interface, type);
+                    }
                 });
             });
         }
