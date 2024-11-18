@@ -1,4 +1,4 @@
-﻿using Poc.ShopCqrs.Domain.Entity.Base;
+﻿using Poc.ShopCqrs.Domain.Core.Entity;
 
 namespace Poc.ShopCqrs.Domain.Interfaces.Repository.Base
 {

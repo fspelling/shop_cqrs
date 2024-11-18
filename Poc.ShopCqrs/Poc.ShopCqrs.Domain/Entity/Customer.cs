@@ -1,4 +1,4 @@
-﻿using Poc.ShopCqrs.Domain.Entity.Base;
+﻿using Poc.ShopCqrs.Domain.Core.Entity;
 
 namespace Poc.ShopCqrs.Domain.Entity
 {
@@ -6,5 +6,11 @@ namespace Poc.ShopCqrs.Domain.Entity
     {
         public string Name { get; private set; } = name;
         public string Email { get; private set; } = email;
+
+        private void When(Customer eventEntity)
+        {
+            Name = eventEntity.Name;
+            Email = eventEntity.Email;
+        }
     }
 }

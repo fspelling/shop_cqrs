@@ -1,6 +1,7 @@
-﻿using Poc.ShopCqrs.Domain.Core.Events;
-using Poc.ShopCqrs.Domain.Entity.Base;
+﻿using Poc.ShopCqrs.Domain.Core.Entity;
+using Poc.ShopCqrs.Domain.Core.Events;
 using Poc.ShopCqrs.Domain.Enums;
+using Poc.ShopCqrs.Domain.Exceptions;
 using Poc.ShopCqrs.Domain.Interfaces.Cache;
 using Poc.ShopCqrs.Domain.Interfaces.Repository.EventSourcing;
 using Poc.ShopCqrs.Domain.Interfaces.Service;
@@ -16,28 +17,37 @@ namespace Poc.ShopCqrs.Service
         public async Task<List<StoredEvent>> ObterHistoryPorAggregateId(Guid aggregateId)
             => await _eventStoreRepository.All(aggregateId);
 
-        // TODO
-        public async Task RestaureEntity<TEntity>(Guid eventStoreId, Guid aggregateId) where TEntity : EntityBase
+        public async Task RestaureEntity<TEntity>(string entityName, Guid aggregateId) where TEntity : EntityBase
         {
-            var historyList = new List<TEntity>();
+            var events = await _eventStoreRepository.All(aggregateId);
 
-            var eventsHistory = await _eventStoreRepository.All(aggregateId);
-            var eventsHistoryUpdate = eventsHistory.First(eh => eh.Id == eventStoreId);
-            var historyData = JsonSerializer.Deserialize<TEntity>(eventsHistoryUpdate.Data!)!;
+            if (!events.Any())
+                throw new EventStoreException("Nenhum evento encontrado para o AggregateId especificado.");
 
-            if (typeof(TEntity).Name == EntityCacheEnum.Consumer.ToString())
+            var orderedEvents = events.OrderBy(e => e.TimeStamp);
+
+            TEntity entity = Activator.CreateInstance<TEntity>();
+
+            foreach (var storedEvent in orderedEvents)
             {
-                var nameProperty = typeof(TEntity).GetProperty("Name");
-                var emailProperty = typeof(TEntity).GetProperty("Email");
+                var eventDataEntity = JsonSerializer.Deserialize<TEntity>(storedEvent.DataEntity!);
 
+                if (eventDataEntity == null)
+                    throw new EventStoreException("Falha na desserialização da entidade do evento.");
+
+                entity.ApplyEvent(eventDataEntity);
+            }
+
+            if (typeof(TEntity).Name == EntityCacheEnum.Customer.ToString())
+            {
                 var customerCache = new Domain.ModelCache.Customer
                 {
-                    ID = historyData.ID,
-                    Name = nameProperty!.GetValue(historyData)?.ToString()!,
-                    Email = emailProperty!.GetValue(historyData)?.ToString()!
+                    ID = aggregateId,
+                    Name = entity.GetType().GetProperty("Name")?.GetValue(entity)?.ToString()!,
+                    Email = entity.GetType().GetProperty("Email")?.GetValue(entity)?.ToString()!
                 };
 
-                await _customerCache.SetCache(historyData.ID.ToString(), customerCache);
+                await _customerCache.SetCache(aggregateId.ToString(), customerCache);
             }
         }
     }

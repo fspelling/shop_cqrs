@@ -4,6 +4,6 @@ namespace Poc.ShopCqrs.Domain.Core.Messaging
 {
     public abstract class Event : Message, INotification
     {
-        public TimeSpan TimeStamp { get; set; } = TimeSpan.Zero;
+        public DateTime TimeStamp { get; set; } = DateTime.Now;
     }
 }

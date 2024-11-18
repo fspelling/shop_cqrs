@@ -6,7 +6,6 @@ using Poc.ShopCqrs.Domain.Core.ViewModel;
 using Poc.ShopCqrs.Domain.Entity;
 using Poc.ShopCqrs.Domain.Exceptions;
 using Poc.ShopCqrs.Domain.Interfaces.Service;
-using StackExchange.Redis;
 using System.Net;
 
 namespace Poc.ShopCqrs.API.Controllers
@@ -40,7 +39,14 @@ namespace Poc.ShopCqrs.API.Controllers
         {
             try
             {
-                await _eventStoreService.RestaureEntity<Customer>(request.EventStoreId, request.AggregateId);
+                var entityType = Type.GetType($"Poc.ShopCqrs.Domain.Entity.{request.EnityName}");
+
+                var method = typeof(IEventStoreService).GetMethod(nameof(_eventStoreService.RestaureEntity));
+
+                var genericMethod = method!.MakeGenericMethod(entityType!);
+
+                await (Task)genericMethod.Invoke(_eventStoreService, new object[] { request.EnityName, request.AggregateId });
+
                 return CustomResponse();
             }
             catch (EventStoreException e)

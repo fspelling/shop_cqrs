@@ -27,7 +27,7 @@ namespace Poc.ShopCqrs.Application.Customer.Commands.Handlers
             var customer = new EntityDb.Customer(request.Name, request.Email);
             await _customerRepository.Inserir(customer);
 
-            await _eventBus.Publish(new CustomerCreatedEvent(customer.ID));
+            await _eventBus.Publish(new CustomerCreatedEvent(customer.ID), customer);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Poc.ShopCqrs.Domain.Core.Entity;
 using Poc.ShopCqrs.Domain.Core.Events;
 using Poc.ShopCqrs.Domain.Core.Messaging;
 using Poc.ShopCqrs.Domain.Interfaces.EventBus;
@@ -16,9 +17,10 @@ namespace Poc.ShopCqrs.Bus
         public async Task SendCommand(IRequest command)
             => await _mediator.Send(command);
 
-        public async Task Publish<TEvent>(TEvent @event) where TEvent : Event
+        public async Task Publish<TEvent, TEntity>(TEvent @event, TEntity entity) 
+            where TEvent : Event where TEntity : EntityBase
         {
-            _eventStore.Save(@event);
+            _eventStore.Save(@event, entity);
             await _mediator.Publish(@event!);
         }
     }
