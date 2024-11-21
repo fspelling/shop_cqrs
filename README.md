@@ -42,6 +42,16 @@ Explorar as vantagens do CQRS e Event Sourcing, como:
 
 ```bash
 git clone https://github.com/seu-usuario/nome-do-repositorio.git  
-cd nome-do-repositorio  
+cd nome-do-repositorio
+```
 
 ### 2. Configure os Serviços Necessários
+
+- Certifique-se de ter o Redis instalado e rodando.
+- **CQRS**  
+- **Event Sourcing**  
+- **Redis** (configurado como base de leitura)  
+- **Mediator**  
+- **Arquitetura Event-Driven**
+
+---
