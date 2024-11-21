@@ -5,7 +5,7 @@ namespace Poc.ShopCqrs.Domain.Interfaces.Service
 {
     public interface IEventStoreService
     {
-        Task<List<StoredEvent>> ObterHistoryPorAggregateId(Guid aggregateId);
-        Task RestaureEntity<TEntity>(string entityName, Guid aggregateId) where TEntity : EntityBase;
+        Task<List<StoredEvent>> ObterHistoryPorAggregateId(string aggregateId);
+        Task RestaureEntity(string aggregateId);
     }
 }

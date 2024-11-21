@@ -2,7 +2,6 @@
 {
     public class EventStoreRestaureInputModel
     {
-        public required Guid AggregateId { get; set; }
-        public required string EnityName { get; set; }
+        public required string AggregateId { get; set; }
     }
 }

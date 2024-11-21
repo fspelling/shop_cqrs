@@ -10,13 +10,13 @@ namespace Poc.ShopCqrs.Data.EventSourcing
     {
         private readonly IEventStoreRepository _eventStoreRepository = eventStoreRepository;
 
-        public void Save<TEvent, TEntity>(TEvent @event, TEntity entity)
+        public void Save<TEvent, TEntity>(TEvent @event, TEntity entity, string entityName)
             where TEvent : Event where TEntity : EntityBase
         {
             var dataEvent = JsonConvert.SerializeObject(@event);
             var dataEntity = JsonConvert.SerializeObject(entity);
 
-            var storedEvent = new StoredEvent(@event, dataEvent, dataEntity);
+            var storedEvent = new StoredEvent(@event, dataEvent, dataEntity, entityName);
             _eventStoreRepository.Store(storedEvent);
         }
     }

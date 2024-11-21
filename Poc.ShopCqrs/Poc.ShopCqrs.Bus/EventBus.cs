@@ -17,11 +17,14 @@ namespace Poc.ShopCqrs.Bus
         public async Task SendCommand(IRequest command)
             => await _mediator.Send(command);
 
-        public async Task Publish<TEvent, TEntity>(TEvent @event, TEntity entity) 
+        public async Task Publish<TEvent, TEntity>(TEvent @event, TEntity entity, string entityName) 
             where TEvent : Event where TEntity : EntityBase
         {
-            _eventStore.Save(@event, entity);
+            _eventStore.Save(@event, entity, entityName);
             await _mediator.Publish(@event!);
         }
+
+        public async Task Publish<TEvent>(TEvent @event) where TEvent : Event
+            => await _mediator.Publish(@event!);
     }
 }

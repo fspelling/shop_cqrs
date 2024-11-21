@@ -9,7 +9,7 @@ namespace Poc.ShopCqrs.Data.Repository.EventSourcing
     {
         private readonly EventStoreContext _eventStoreContext = eventStoreContext;
 
-        public async Task<List<StoredEvent>> All(Guid aggregateId)
+        public async Task<List<StoredEvent>> All(string aggregateId)
             => await _eventStoreContext.StoredEvent.Where(se => se.AggregateId == aggregateId).Select(s => s).ToListAsync();
 
         public void Store(StoredEvent @event)

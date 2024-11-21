@@ -3,7 +3,6 @@ using Poc.ShopCqrs.API.Controllers.Base;
 using Poc.ShopCqrs.Application.EventStore.Model.Input;
 using Poc.ShopCqrs.Application.EventStore.Model.View;
 using Poc.ShopCqrs.Domain.Core.ViewModel;
-using Poc.ShopCqrs.Domain.Entity;
 using Poc.ShopCqrs.Domain.Exceptions;
 using Poc.ShopCqrs.Domain.Interfaces.Service;
 using System.Net;
@@ -17,7 +16,7 @@ namespace Poc.ShopCqrs.API.Controllers
         private readonly IEventStoreService _eventStoreService = eventStoreService;
 
         [HttpGet("{AggregateId}")]
-        public async Task<ActionResult<CustomResponseViewModel<EventStoreViewModel>>> GetHistory(Guid AggregateId)
+        public async Task<ActionResult<CustomResponseViewModel<EventStoreViewModel>>> GetHistory(string AggregateId)
         {
             try
             {
@@ -39,14 +38,7 @@ namespace Poc.ShopCqrs.API.Controllers
         {
             try
             {
-                var entityType = Type.GetType($"Poc.ShopCqrs.Domain.Entity.{request.EnityName}");
-
-                var method = typeof(IEventStoreService).GetMethod(nameof(_eventStoreService.RestaureEntity));
-
-                var genericMethod = method!.MakeGenericMethod(entityType!);
-
-                await (Task)genericMethod.Invoke(_eventStoreService, new object[] { request.EnityName, request.AggregateId });
-
+                await _eventStoreService.RestaureEntity(request.AggregateId);
                 return CustomResponse();
             }
             catch (EventStoreException e)

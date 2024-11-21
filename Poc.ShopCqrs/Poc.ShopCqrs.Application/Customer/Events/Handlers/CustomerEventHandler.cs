@@ -22,8 +22,8 @@ namespace Poc.ShopCqrs.Application.Customer.Events.Handlers
             var customerCache = new modelCache.Customer
             { 
                 ID = notification.CustomerID, 
-                Name = customerCriado.Name,
-                Email = customerCriado.Email
+                Name = customerCriado.Name!,
+                Email = customerCriado.Email!
             };
 
             await _cache.SetCache(notification.CustomerID.ToString(), customerCache);

@@ -5,6 +5,6 @@ namespace Poc.ShopCqrs.Domain.Core.Events
 {
     public interface IEventStore
     {
-        void Save<TEvent, TEntity>(TEvent @event, TEntity entity) where TEvent : Event where TEntity : EntityBase;
+        void Save<TEvent, TEntity>(TEvent @event, TEntity entity, string entityName) where TEvent : Event where TEntity : EntityBase;
     }
 }
