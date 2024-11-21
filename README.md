@@ -43,3 +43,5 @@ Explorar as vantagens do CQRS e Event Sourcing, como:
 ```bash
 git clone https://github.com/seu-usuario/nome-do-repositorio.git  
 cd nome-do-repositorio  
+
+### 2. Configure os Serviços Necessários
