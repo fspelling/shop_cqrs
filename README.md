@@ -62,3 +62,30 @@ dotnet run
 - Utilize ferramentas como Postman ou Swagger (se habilitado) para enviar comandos e realizar consultas.
 
 ---
+
+### 🌟 Recursos Demonstrados
+
+- Implementação da separação entre Write e Read models.
+- Persistência de eventos no modelo de escrita.
+- Uso do Redis como base de leitura para consultas rápidas e escaláveis.
+- Comunicação eficiente utilizando o padrão Mediator.
+
+---
+
+### 📌 Próximos Passos
+
+- Adicionar exemplos de integração com filas (ex.: RabbitMQ).
+- Implementar mais casos de uso no modelo de evento.
+- Melhorar a documentação com fluxogramas de arquitetura.
+
+---
+
+### 📫 Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+---
+
+### 📄 Licença
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
