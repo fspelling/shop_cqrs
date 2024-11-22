@@ -251,11 +251,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Bus\\Poc.ShopCqrs.Bus.csproj",
+      "projectUniqueName": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Bus\\Poc.ShopCqrs.Bus.csproj",
       "projectName": "Poc.ShopCqrs.Bus",
-      "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Bus\\Poc.ShopCqrs.Bus.csproj",
+      "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Bus\\Poc.ShopCqrs.Bus.csproj",
       "packagesPath": "C:\\Users\\fernando.spelling\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Bus\\obj\\",
+      "outputPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Bus\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -277,11 +277,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj": {
-              "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj"
+            "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj": {
+              "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj"
             },
-            "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj": {
-              "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj"
+            "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj": {
+              "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj"
             }
           }
         }

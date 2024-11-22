@@ -1,212 +1,212 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\",
+  "WorkspaceRootPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1EF1D246-A7E5-422A-A6B2-42E9209FCBC5}|Poc.ShopCqrs.Service\\Poc.ShopCqrs.Service.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.service\\eventstoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EF1D246-A7E5-422A-A6B2-42E9209FCBC5}|Poc.ShopCqrs.Service\\Poc.ShopCqrs.Service.csproj|solutionrelative:poc.shopcqrs.service\\eventstoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.api\\configurations\\iocconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|solutionrelative:poc.shopcqrs.api\\configurations\\iocconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|solutionrelative:poc.shopcqrs.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|solutionrelative:poc.shopcqrs.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02B4E229-7401-4C14-BAA1-56DA691707D7}|Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.sql\\factories\\repositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02B4E229-7401-4C14-BAA1-56DA691707D7}|Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj|solutionrelative:poc.shopcqrs.sql\\factories\\repositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain.core\\messaging\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|solutionrelative:poc.shopcqrs.domain.core\\messaging\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain\\events\\customercreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|solutionrelative:poc.shopcqrs.domain\\events\\customercreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain.core\\messaging\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|solutionrelative:poc.shopcqrs.domain.core\\messaging\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain\\factories\\eventfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|solutionrelative:poc.shopcqrs.domain\\factories\\eventfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain\\factories\\entityfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|solutionrelative:poc.shopcqrs.domain\\factories\\entityfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain\\entity\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|solutionrelative:poc.shopcqrs.domain\\entity\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain.core\\entity\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|solutionrelative:poc.shopcqrs.domain.core\\entity\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.application\\customer\\events\\handlers\\customereventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|solutionrelative:poc.shopcqrs.application\\customer\\events\\handlers\\customereventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3F961C8-E384-4B10-A490-68626B228E66}|Poc.ShopCqrs.Cache\\Poc.ShopCqrs.Cache.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.cache\\caches\\base\\cachebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3F961C8-E384-4B10-A490-68626B228E66}|Poc.ShopCqrs.Cache\\Poc.ShopCqrs.Cache.csproj|solutionrelative:poc.shopcqrs.cache\\caches\\base\\cachebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3F961C8-E384-4B10-A490-68626B228E66}|Poc.ShopCqrs.Cache\\Poc.ShopCqrs.Cache.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.cache\\caches\\customercache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3F961C8-E384-4B10-A490-68626B228E66}|Poc.ShopCqrs.Cache\\Poc.ShopCqrs.Cache.csproj|solutionrelative:poc.shopcqrs.cache\\caches\\customercache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.api\\configurations\\cacheconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|solutionrelative:poc.shopcqrs.api\\configurations\\cacheconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C7427F1-D026-45A5-9D74-354D1A3D3E58}|Poc.ShopCqrs.Bus\\Poc.ShopCqrs.Bus.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.bus\\eventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C7427F1-D026-45A5-9D74-354D1A3D3E58}|Poc.ShopCqrs.Bus\\Poc.ShopCqrs.Bus.csproj|solutionrelative:poc.shopcqrs.bus\\eventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02B4E229-7401-4C14-BAA1-56DA691707D7}|Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.sql\\repository\\base\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02B4E229-7401-4C14-BAA1-56DA691707D7}|Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj|solutionrelative:poc.shopcqrs.sql\\repository\\base\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.application\\customer\\commands\\handlers\\customercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.application\\customer\\commands\\handlers\\customercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|solutionrelative:poc.shopcqrs.application\\customer\\commands\\handlers\\customercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain.core\\events\\storedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.application\\customer\\events\\handlers\\customereventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|solutionrelative:poc.shopcqrs.application\\customer\\events\\handlers\\customereventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7427F1-D026-45A5-9D74-354D1A3D3E58}|Poc.ShopCqrs.Bus\\Poc.ShopCqrs.Bus.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.bus\\eventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7427F1-D026-45A5-9D74-354D1A3D3E58}|Poc.ShopCqrs.Bus\\Poc.ShopCqrs.Bus.csproj|solutionrelative:poc.shopcqrs.bus\\eventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain\\events\\customercreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|solutionrelative:poc.shopcqrs.domain\\events\\customercreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain\\interfaces\\eventbus\\ieventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|solutionrelative:poc.shopcqrs.domain\\interfaces\\eventbus\\ieventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B4E229-7401-4C14-BAA1-56DA691707D7}|Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.sql\\eventsourcing\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B4E229-7401-4C14-BAA1-56DA691707D7}|Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj|solutionrelative:poc.shopcqrs.sql\\eventsourcing\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF1D246-A7E5-422A-A6B2-42E9209FCBC5}|Poc.ShopCqrs.Service\\Poc.ShopCqrs.Service.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.service\\eventstoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF1D246-A7E5-422A-A6B2-42E9209FCBC5}|Poc.ShopCqrs.Service\\Poc.ShopCqrs.Service.csproj|solutionrelative:poc.shopcqrs.service\\eventstoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|solutionrelative:poc.shopcqrs.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|solutionrelative:poc.shopcqrs.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B4E229-7401-4C14-BAA1-56DA691707D7}|Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.sql\\factories\\repositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B4E229-7401-4C14-BAA1-56DA691707D7}|Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj|solutionrelative:poc.shopcqrs.sql\\factories\\repositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain.core\\messaging\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|solutionrelative:poc.shopcqrs.domain.core\\messaging\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain.core\\messaging\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|solutionrelative:poc.shopcqrs.domain.core\\messaging\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain\\factories\\eventfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|solutionrelative:poc.shopcqrs.domain\\factories\\eventfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain\\factories\\entityfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|solutionrelative:poc.shopcqrs.domain\\factories\\entityfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain\\entity\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|solutionrelative:poc.shopcqrs.domain\\entity\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain.core\\entity\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|solutionrelative:poc.shopcqrs.domain.core\\entity\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F961C8-E384-4B10-A490-68626B228E66}|Poc.ShopCqrs.Cache\\Poc.ShopCqrs.Cache.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.cache\\caches\\base\\cachebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3F961C8-E384-4B10-A490-68626B228E66}|Poc.ShopCqrs.Cache\\Poc.ShopCqrs.Cache.csproj|solutionrelative:poc.shopcqrs.cache\\caches\\base\\cachebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F961C8-E384-4B10-A490-68626B228E66}|Poc.ShopCqrs.Cache\\Poc.ShopCqrs.Cache.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.cache\\caches\\customercache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3F961C8-E384-4B10-A490-68626B228E66}|Poc.ShopCqrs.Cache\\Poc.ShopCqrs.Cache.csproj|solutionrelative:poc.shopcqrs.cache\\caches\\customercache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.api\\configurations\\cacheconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|solutionrelative:poc.shopcqrs.api\\configurations\\cacheconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B4E229-7401-4C14-BAA1-56DA691707D7}|Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.sql\\repository\\base\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B4E229-7401-4C14-BAA1-56DA691707D7}|Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj|solutionrelative:poc.shopcqrs.sql\\repository\\base\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain.core\\events\\storedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|solutionrelative:poc.shopcqrs.domain.core\\events\\storedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fernando.spelling\\AppData\\Local\\SourceServer\\351606768d6d7445d21457f26900e91d2a735b32f90cce2afdaab12cb7448e93\\Poc.ShopCqrs\\Poc.ShopCqrs.Service\\EventStoreService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02B4E229-7401-4C14-BAA1-56DA691707D7}|Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.sql\\eventsourcing\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02B4E229-7401-4C14-BAA1-56DA691707D7}|Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj|solutionrelative:poc.shopcqrs.sql\\eventsourcing\\eventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain\\interfaces\\service\\ieventstoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain\\interfaces\\service\\ieventstoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|solutionrelative:poc.shopcqrs.domain\\interfaces\\service\\ieventstoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain\\interfaces\\repository\\eventsourcing\\ieventstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain\\interfaces\\repository\\eventsourcing\\ieventstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|solutionrelative:poc.shopcqrs.domain\\interfaces\\repository\\eventsourcing\\ieventstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02B4E229-7401-4C14-BAA1-56DA691707D7}|Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.sql\\repository\\eventsourcing\\eventstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{02B4E229-7401-4C14-BAA1-56DA691707D7}|Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.sql\\repository\\eventsourcing\\eventstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02B4E229-7401-4C14-BAA1-56DA691707D7}|Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj|solutionrelative:poc.shopcqrs.sql\\repository\\eventsourcing\\eventstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain\\modelcache\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain\\modelcache\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|solutionrelative:poc.shopcqrs.domain\\modelcache\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain\\interfaces\\repository\\base\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain\\interfaces\\repository\\base\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|solutionrelative:poc.shopcqrs.domain\\interfaces\\repository\\base\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.application\\eventstore\\model\\input\\eventstorerestaureinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.application\\eventstore\\model\\input\\eventstorerestaureinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|solutionrelative:poc.shopcqrs.application\\eventstore\\model\\input\\eventstorerestaureinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.application\\customer\\queries\\responses\\findcustomerbyidqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.application\\customer\\queries\\responses\\findcustomerbyidqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|solutionrelative:poc.shopcqrs.application\\customer\\queries\\responses\\findcustomerbyidqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.api\\controllers\\eventstorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.api\\controllers\\eventstorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|solutionrelative:poc.shopcqrs.api\\controllers\\eventstorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain.core\\extensions\\validatorextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain.core\\extensions\\validatorextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|solutionrelative:poc.shopcqrs.domain.core\\extensions\\validatorextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EF1D246-A7E5-422A-A6B2-42E9209FCBC5}|Poc.ShopCqrs.Service\\Poc.ShopCqrs.Service.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.service\\poc.shopcqrs.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{1EF1D246-A7E5-422A-A6B2-42E9209FCBC5}|Poc.ShopCqrs.Service\\Poc.ShopCqrs.Service.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.service\\poc.shopcqrs.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{1EF1D246-A7E5-422A-A6B2-42E9209FCBC5}|Poc.ShopCqrs.Service\\Poc.ShopCqrs.Service.csproj|solutionrelative:poc.shopcqrs.service\\poc.shopcqrs.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02B4E229-7401-4C14-BAA1-56DA691707D7}|Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.sql\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{02B4E229-7401-4C14-BAA1-56DA691707D7}|Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.sql\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02B4E229-7401-4C14-BAA1-56DA691707D7}|Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj|solutionrelative:poc.shopcqrs.sql\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain\\interfaces\\repository\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain\\interfaces\\repository\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|solutionrelative:poc.shopcqrs.domain\\interfaces\\repository\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain\\interfaces\\eventbus\\ieventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|solutionrelative:poc.shopcqrs.domain\\interfaces\\eventbus\\ieventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain.core\\events\\ieventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain.core\\events\\ieventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|solutionrelative:poc.shopcqrs.domain.core\\events\\ieventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02B4E229-7401-4C14-BAA1-56DA691707D7}|Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.sql\\context\\eventstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{02B4E229-7401-4C14-BAA1-56DA691707D7}|Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.sql\\context\\eventstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02B4E229-7401-4C14-BAA1-56DA691707D7}|Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj|solutionrelative:poc.shopcqrs.sql\\context\\eventstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain\\enums\\entityenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain\\enums\\entityenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|solutionrelative:poc.shopcqrs.domain\\enums\\entityenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3F961C8-E384-4B10-A490-68626B228E66}|Poc.ShopCqrs.Cache\\Poc.ShopCqrs.Cache.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.cache\\modelcache\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3F961C8-E384-4B10-A490-68626B228E66}|Poc.ShopCqrs.Cache\\Poc.ShopCqrs.Cache.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.cache\\modelcache\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3F961C8-E384-4B10-A490-68626B228E66}|Poc.ShopCqrs.Cache\\Poc.ShopCqrs.Cache.csproj|solutionrelative:poc.shopcqrs.cache\\modelcache\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain\\interfaces\\cache\\icustomercache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain\\interfaces\\cache\\icustomercache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|solutionrelative:poc.shopcqrs.domain\\interfaces\\cache\\icustomercache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.api\\configurations\\iocconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|solutionrelative:poc.shopcqrs.api\\configurations\\iocconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|solutionrelative:poc.shopcqrs.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.application\\eventstore\\model\\view\\eventstoreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.application\\eventstore\\model\\view\\eventstoreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|solutionrelative:poc.shopcqrs.application\\eventstore\\model\\view\\eventstoreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.application\\configuration\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.application\\configuration\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|solutionrelative:poc.shopcqrs.application\\configuration\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.api\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.api\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|solutionrelative:poc.shopcqrs.api\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain.core\\viewmodel\\customresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain.core\\viewmodel\\customresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|solutionrelative:poc.shopcqrs.domain.core\\viewmodel\\customresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain\\exceptions\\eventstoreexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain\\exceptions\\eventstoreexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|solutionrelative:poc.shopcqrs.domain\\exceptions\\eventstoreexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain\\interfaces\\cache\\base\\icachebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain\\interfaces\\cache\\base\\icachebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{614101FC-71A5-42F8-9AFA-77E843D99975}|Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj|solutionrelative:poc.shopcqrs.domain\\interfaces\\cache\\base\\icachebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain.core\\messaging\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain.core\\messaging\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|solutionrelative:poc.shopcqrs.domain.core\\messaging\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.application\\customer\\queries\\findcustomerbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.application\\customer\\queries\\findcustomerbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|solutionrelative:poc.shopcqrs.application\\customer\\queries\\findcustomerbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.api\\configurations\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.api\\configurations\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB07308B-2A1C-4B69-BEBB-5A9B02A02D93}|Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj|solutionrelative:poc.shopcqrs.api\\configurations\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.application\\customer\\commands\\validators\\createcustomercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.application\\customer\\commands\\validators\\createcustomercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2F93691-D649-40DC-BBEF-62E0CEFD4C6B}|Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj|solutionrelative:poc.shopcqrs.application\\customer\\commands\\validators\\createcustomercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|c:\\projetos\\pocs\\shop_cqrs\\poc.shopcqrs\\poc.shopcqrs.domain.core\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|c:\\projetos\\pocs\\shop_cqrs\\src\\poc.shopcqrs.domain.core\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E13DCC00-7766-4EAA-8D05-87E25146EEE9}|Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj|solutionrelative:poc.shopcqrs.domain.core\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -217,7 +217,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -225,267 +225,279 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.API\\appsettings.json",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.API\\appsettings.json",
-              "RelativeToolTip": "Poc.ShopCqrs.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-22T04:20:51.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.API\\appsettings.Development.json",
-              "RelativeToolTip": "Poc.ShopCqrs.API\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-22T04:20:43.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EventFactory.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Factories\\EventFactory.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\Factories\\EventFactory.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Factories\\EventFactory.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Domain\\Factories\\EventFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T14:59:30.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EventStoreService.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Service\\EventStoreService.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Service\\EventStoreService.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Service\\EventStoreService.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Service\\EventStoreService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T13:20:04.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EntityFactory.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Factories\\EntityFactory.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\Factories\\EntityFactory.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Factories\\EntityFactory.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Domain\\Factories\\EntityFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T13:36:27.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Entity\\Customer.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\Entity\\Customer.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Entity\\Customer.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Domain\\Entity\\Customer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:14:13.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "CustomerCreatedEvent.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Events\\CustomerCreatedEvent.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Events\\CustomerCreatedEvent.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\Events\\CustomerCreatedEvent.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Events\\CustomerCreatedEvent.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Events\\CustomerCreatedEvent.cs",
               "RelativeToolTip": "Poc.ShopCqrs.Domain\\Events\\CustomerCreatedEvent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T16:55:50.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Messaging\\Event.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Messaging\\Event.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain.Core\\Messaging\\Event.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Messaging\\Event.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Messaging\\Event.cs",
               "RelativeToolTip": "Poc.ShopCqrs.Domain.Core\\Messaging\\Event.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T13:56:20.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T13:56:20.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Message.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Messaging\\Message.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Messaging\\Message.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain.Core\\Messaging\\Message.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Messaging\\Message.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Messaging\\Message.cs",
               "RelativeToolTip": "Poc.ShopCqrs.Domain.Core\\Messaging\\Message.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T14:59:15.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T14:59:15.529Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "CustomerEventHandler.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Application\\Customer\\Events\\Handlers\\CustomerEventHandler.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Application\\Customer\\Events\\Handlers\\CustomerEventHandler.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.Application\\Customer\\Events\\Handlers\\CustomerEventHandler.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Application\\Customer\\Events\\Handlers\\CustomerEventHandler.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Application\\Customer\\Events\\Handlers\\CustomerEventHandler.cs",
               "RelativeToolTip": "Poc.ShopCqrs.Application\\Customer\\Events\\Handlers\\CustomerEventHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T15:33:22.384Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RepositoryFactory.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Sql\\Factories\\RepositoryFactory.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Sql\\Factories\\RepositoryFactory.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Sql\\Factories\\RepositoryFactory.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Sql\\Factories\\RepositoryFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T14:16:04.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EntityBase.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Entity\\EntityBase.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain.Core\\Entity\\EntityBase.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Entity\\EntityBase.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Domain.Core\\Entity\\EntityBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T13:28:24.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CacheBase.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Cache\\Caches\\Base\\CacheBase.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Cache\\Caches\\Base\\CacheBase.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Cache\\Caches\\Base\\CacheBase.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Cache\\Caches\\Base\\CacheBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:17:21.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CustomerCache.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Cache\\Caches\\CustomerCache.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Cache\\Caches\\CustomerCache.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Cache\\Caches\\CustomerCache.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Cache\\Caches\\CustomerCache.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T19:14:04.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CacheConfig.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.API\\Configurations\\CacheConfig.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.API\\Configurations\\CacheConfig.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.API\\Configurations\\CacheConfig.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.API\\Configurations\\CacheConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T03:28:52.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EventBus.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Bus\\EventBus.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Bus\\EventBus.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Bus\\EventBus.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Bus\\EventBus.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAswB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T13:07:55.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "StoredEvent.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Events\\StoredEvent.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain.Core\\Events\\StoredEvent.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Events\\StoredEvent.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Domain.Core\\Events\\StoredEvent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T13:21:41.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 1,
               "Title": "CustomerCommandHandler.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Application\\Customer\\Commands\\Handlers\\CustomerCommandHandler.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Application\\Customer\\Commands\\Handlers\\CustomerCommandHandler.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.Application\\Customer\\Commands\\Handlers\\CustomerCommandHandler.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Application\\Customer\\Commands\\Handlers\\CustomerCommandHandler.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Application\\Customer\\Commands\\Handlers\\CustomerCommandHandler.cs",
               "RelativeToolTip": "Poc.ShopCqrs.Application\\Customer\\Commands\\Handlers\\CustomerCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwCEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T16:50:47.768Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Sql\\Repository\\Base\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Sql\\Repository\\Base\\RepositoryBase.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Sql\\Repository\\Base\\RepositoryBase.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Sql\\Repository\\Base\\RepositoryBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "DocumentIndex": 3,
+              "Title": "EventBus.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Bus\\EventBus.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Bus\\EventBus.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Bus\\EventBus.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Bus\\EventBus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:15:33.365Z",
+              "WhenOpened": "2024-11-18T13:07:55.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 6,
               "Title": "EventStore.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Sql\\EventSourcing\\EventStore.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Sql\\EventSourcing\\EventStore.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.Sql\\EventSourcing\\EventStore.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Sql\\EventSourcing\\EventStore.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Sql\\EventSourcing\\EventStore.cs",
               "RelativeToolTip": "Poc.ShopCqrs.Sql\\EventSourcing\\EventStore.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T13:14:06.332Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEventBus.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Interfaces\\EventBus\\IEventBus.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\Interfaces\\EventBus\\IEventBus.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Interfaces\\EventBus\\IEventBus.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Domain\\Interfaces\\EventBus\\IEventBus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T15:23:00.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IocConfig.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.API\\Configurations\\IocConfig.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.API\\Configurations\\IocConfig.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.API\\Configurations\\IocConfig.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.API\\Configurations\\IocConfig.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAjwDsAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T19:21:03.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Entity\\Customer.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\Entity\\Customer.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Entity\\Customer.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Domain\\Entity\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T17:14:13.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EntityFactory.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Factories\\EntityFactory.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\Factories\\EntityFactory.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Factories\\EntityFactory.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Domain\\Factories\\EntityFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T13:36:27.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventStoreService.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Service\\EventStoreService.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Service\\EventStoreService.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Service\\EventStoreService.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Service\\EventStoreService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T13:20:04.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EventFactory.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Factories\\EventFactory.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\Factories\\EventFactory.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Factories\\EventFactory.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Domain\\Factories\\EventFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T14:59:30.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.API\\appsettings.Development.json",
+              "RelativeToolTip": "Poc.ShopCqrs.API\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-22T04:20:43.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.API\\appsettings.json",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.API\\appsettings.json",
+              "RelativeToolTip": "Poc.ShopCqrs.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-22T04:20:51.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RepositoryFactory.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Sql\\Factories\\RepositoryFactory.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Sql\\Factories\\RepositoryFactory.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Sql\\Factories\\RepositoryFactory.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Sql\\Factories\\RepositoryFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T14:16:04.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EntityBase.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Entity\\EntityBase.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain.Core\\Entity\\EntityBase.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Entity\\EntityBase.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Domain.Core\\Entity\\EntityBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T13:28:24.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CacheBase.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Cache\\Caches\\Base\\CacheBase.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Cache\\Caches\\Base\\CacheBase.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Cache\\Caches\\Base\\CacheBase.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Cache\\Caches\\Base\\CacheBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T17:17:21.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CustomerCache.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Cache\\Caches\\CustomerCache.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Cache\\Caches\\CustomerCache.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Cache\\Caches\\CustomerCache.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Cache\\Caches\\CustomerCache.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T19:14:04.297Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 19,
+              "Title": "CacheConfig.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.API\\Configurations\\CacheConfig.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.API\\Configurations\\CacheConfig.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.API\\Configurations\\CacheConfig.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.API\\Configurations\\CacheConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T03:28:52.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StoredEvent.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Events\\StoredEvent.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain.Core\\Events\\StoredEvent.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Events\\StoredEvent.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Domain.Core\\Events\\StoredEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T13:21:41.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Sql\\Repository\\Base\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Sql\\Repository\\Base\\RepositoryBase.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Sql\\Repository\\Base\\RepositoryBase.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Sql\\Repository\\Base\\RepositoryBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T17:15:33.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "EventStoreService.cs",
               "DocumentMoniker": "C:\\Users\\fernando.spelling\\AppData\\Local\\SourceServer\\351606768d6d7445d21457f26900e91d2a735b32f90cce2afdaab12cb7448e93\\Poc.ShopCqrs\\Poc.ShopCqrs.Service\\EventStoreService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\fernando.spelling\\AppData\\Local\\SourceServer\\351606768d6d7445d21457f26900e91d2a735b32f90cce2afdaab12cb7448e93\\Poc.ShopCqrs\\Poc.ShopCqrs.Service\\EventStoreService.cs",
@@ -498,102 +510,95 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "IRepositoryBase.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Interfaces\\Repository\\Base\\IRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Interfaces\\Repository\\Base\\IRepositoryBase.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\Interfaces\\Repository\\Base\\IRepositoryBase.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Interfaces\\Repository\\Base\\IRepositoryBase.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Interfaces\\Repository\\Base\\IRepositoryBase.cs",
               "RelativeToolTip": "Poc.ShopCqrs.Domain\\Interfaces\\Repository\\Base\\IRepositoryBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:16:00.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T17:16:00.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "EventStoreRepository.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Sql\\Repository\\EventSourcing\\EventStoreRepository.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Sql\\Repository\\EventSourcing\\EventStoreRepository.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.Sql\\Repository\\EventSourcing\\EventStoreRepository.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Sql\\Repository\\EventSourcing\\EventStoreRepository.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Sql\\Repository\\EventSourcing\\EventStoreRepository.cs",
               "RelativeToolTip": "Poc.ShopCqrs.Sql\\Repository\\EventSourcing\\EventStoreRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T18:23:17.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\ModelCache\\Customer.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\ModelCache\\Customer.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\ModelCache\\Customer.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Domain\\ModelCache\\Customer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:16:28.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IEventStoreService.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Interfaces\\Service\\IEventStoreService.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\Interfaces\\Service\\IEventStoreService.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Interfaces\\Service\\IEventStoreService.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Domain\\Interfaces\\Service\\IEventStoreService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T13:18:22.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IEventStoreRepository.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Interfaces\\Repository\\EventSourcing\\IEventStoreRepository.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\Interfaces\\Repository\\EventSourcing\\IEventStoreRepository.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Interfaces\\Repository\\EventSourcing\\IEventStoreRepository.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Domain\\Interfaces\\Repository\\EventSourcing\\IEventStoreRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T18:23:06.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T18:23:17.462Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
-              "Title": "EventStoreRestaureInputModel.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Application\\EventStore\\Model\\Input\\EventStoreRestaureInputModel.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Application\\EventStore\\Model\\Input\\EventStoreRestaureInputModel.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Application\\EventStore\\Model\\Input\\EventStoreRestaureInputModel.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Application\\EventStore\\Model\\Input\\EventStoreRestaureInputModel.cs",
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\ModelCache\\Customer.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\ModelCache\\Customer.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\ModelCache\\Customer.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Domain\\ModelCache\\Customer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T18:46:22.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T17:16:28.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "FindCustomerByIdQueryResponse.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Application\\Customer\\Queries\\Responses\\FindCustomerByIdQueryResponse.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Application\\Customer\\Queries\\Responses\\FindCustomerByIdQueryResponse.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Application\\Customer\\Queries\\Responses\\FindCustomerByIdQueryResponse.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Application\\Customer\\Queries\\Responses\\FindCustomerByIdQueryResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAeAAAA",
+              "DocumentIndex": 23,
+              "Title": "IEventStoreService.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Interfaces\\Service\\IEventStoreService.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\Interfaces\\Service\\IEventStoreService.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Interfaces\\Service\\IEventStoreService.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Domain\\Interfaces\\Service\\IEventStoreService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T14:58:40.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T13:18:22.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IEventStoreRepository.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Interfaces\\Repository\\EventSourcing\\IEventStoreRepository.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\Interfaces\\Repository\\EventSourcing\\IEventStoreRepository.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Interfaces\\Repository\\EventSourcing\\IEventStoreRepository.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Domain\\Interfaces\\Repository\\EventSourcing\\IEventStoreRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:23:06.618Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
+              "Title": "EventStoreRestaureInputModel.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Application\\EventStore\\Model\\Input\\EventStoreRestaureInputModel.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Application\\EventStore\\Model\\Input\\EventStoreRestaureInputModel.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Application\\EventStore\\Model\\Input\\EventStoreRestaureInputModel.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Application\\EventStore\\Model\\Input\\EventStoreRestaureInputModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:46:22.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FindCustomerByIdQueryResponse.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Application\\Customer\\Queries\\Responses\\FindCustomerByIdQueryResponse.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Application\\Customer\\Queries\\Responses\\FindCustomerByIdQueryResponse.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Application\\Customer\\Queries\\Responses\\FindCustomerByIdQueryResponse.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Application\\Customer\\Queries\\Responses\\FindCustomerByIdQueryResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T14:58:40.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "EventStoreController.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.API\\Controllers\\EventStoreController.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.API\\Controllers\\EventStoreController.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.API\\Controllers\\EventStoreController.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.API\\Controllers\\EventStoreController.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.API\\Controllers\\EventStoreController.cs",
               "RelativeToolTip": "Poc.ShopCqrs.API\\Controllers\\EventStoreController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAABnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -602,154 +607,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "ValidatorExtension.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Extensions\\ValidatorExtension.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Extensions\\ValidatorExtension.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain.Core\\Extensions\\ValidatorExtension.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Extensions\\ValidatorExtension.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Extensions\\ValidatorExtension.cs",
               "RelativeToolTip": "Poc.ShopCqrs.Domain.Core\\Extensions\\ValidatorExtension.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:58:37.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Poc.ShopCqrs.Service.csproj",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Service\\Poc.ShopCqrs.Service.csproj",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Service\\Poc.ShopCqrs.Service.csproj",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Service\\Poc.ShopCqrs.Service.csproj",
-              "RelativeToolTip": "Poc.ShopCqrs.Service\\Poc.ShopCqrs.Service.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-21T13:55:51.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T13:58:37.374Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
-              "Title": "ICustomerRepository.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Interfaces\\Repository\\ICustomerRepository.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\Interfaces\\Repository\\ICustomerRepository.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Interfaces\\Repository\\ICustomerRepository.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Domain\\Interfaces\\Repository\\ICustomerRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:23:44.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Sql\\Repository\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Sql\\Repository\\CustomerRepository.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Sql\\Repository\\CustomerRepository.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Sql\\Repository\\CustomerRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T19:20:39.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "IEventBus.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Interfaces\\EventBus\\IEventBus.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\Interfaces\\EventBus\\IEventBus.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Interfaces\\EventBus\\IEventBus.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Domain\\Interfaces\\EventBus\\IEventBus.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:23:00.758Z",
-              "EditorCaption": ""
+              "Title": "Poc.ShopCqrs.Service.csproj",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Service\\Poc.ShopCqrs.Service.csproj",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Service\\Poc.ShopCqrs.Service.csproj",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Service\\Poc.ShopCqrs.Service.csproj",
+              "RelativeToolTip": "Poc.ShopCqrs.Service\\Poc.ShopCqrs.Service.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-21T13:55:51.643Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
-              "Title": "IEventStore.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Events\\IEventStore.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain.Core\\Events\\IEventStore.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Events\\IEventStore.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Domain.Core\\Events\\IEventStore.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Interfaces\\Repository\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\Interfaces\\Repository\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Interfaces\\Repository\\ICustomerRepository.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Domain\\Interfaces\\Repository\\ICustomerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T13:27:16.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T15:23:44.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Sql\\Repository\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Sql\\Repository\\CustomerRepository.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Sql\\Repository\\CustomerRepository.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Sql\\Repository\\CustomerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T19:20:39.096Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 35,
-              "Title": "EventStoreContext.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Sql\\Context\\EventStoreContext.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Sql\\Context\\EventStoreContext.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Sql\\Context\\EventStoreContext.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Sql\\Context\\EventStoreContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Title": "IEventStore.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Events\\IEventStore.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain.Core\\Events\\IEventStore.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Events\\IEventStore.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Domain.Core\\Events\\IEventStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:51:19.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T13:27:16.987Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 36,
-              "Title": "EntityEnum.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Enums\\EntityEnum.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\Enums\\EntityEnum.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Enums\\EntityEnum.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Domain\\Enums\\EntityEnum.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Title": "EventStoreContext.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Sql\\Context\\EventStoreContext.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Sql\\Context\\EventStoreContext.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Sql\\Context\\EventStoreContext.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Sql\\Context\\EventStoreContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T19:16:06.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ICustomerCache.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Interfaces\\Cache\\ICustomerCache.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\Interfaces\\Cache\\ICustomerCache.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Interfaces\\Cache\\ICustomerCache.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.Domain\\Interfaces\\Cache\\ICustomerCache.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:06:04.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "IocConfig.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.API\\Configurations\\IocConfig.cs",
-              "RelativeDocumentMoniker": "Poc.ShopCqrs.API\\Configurations\\IocConfig.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.API\\Configurations\\IocConfig.cs",
-              "RelativeToolTip": "Poc.ShopCqrs.API\\Configurations\\IocConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T19:21:03.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T13:51:19.89Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 37,
+              "Title": "EntityEnum.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Enums\\EntityEnum.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\Enums\\EntityEnum.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Enums\\EntityEnum.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Domain\\Enums\\EntityEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T19:16:06.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ICustomerCache.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Interfaces\\Cache\\ICustomerCache.cs",
+              "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\Interfaces\\Cache\\ICustomerCache.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Interfaces\\Cache\\ICustomerCache.cs",
+              "RelativeToolTip": "Poc.ShopCqrs.Domain\\Interfaces\\Cache\\ICustomerCache.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T15:06:04.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
               "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Cache\\ModelCache\\Customer.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Cache\\ModelCache\\Customer.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.Cache\\ModelCache\\Customer.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Cache\\ModelCache\\Customer.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Cache\\ModelCache\\Customer.cs",
               "RelativeToolTip": "Poc.ShopCqrs.Cache\\ModelCache\\Customer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T20:22:45.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T20:22:45.221Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 40,
               "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.API\\Controllers\\CustomerController.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.API\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.API\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.API\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.API\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "Poc.ShopCqrs.API\\Controllers\\CustomerController.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAIwDwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -760,144 +730,133 @@
               "$type": "Document",
               "DocumentIndex": 41,
               "Title": "EventStoreViewModel.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Application\\EventStore\\Model\\View\\EventStoreViewModel.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Application\\EventStore\\Model\\View\\EventStoreViewModel.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.Application\\EventStore\\Model\\View\\EventStoreViewModel.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Application\\EventStore\\Model\\View\\EventStoreViewModel.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Application\\EventStore\\Model\\View\\EventStoreViewModel.cs",
               "RelativeToolTip": "Poc.ShopCqrs.Application\\EventStore\\Model\\View\\EventStoreViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T18:01:30.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T18:01:30.049Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 42,
               "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Application\\Configuration\\MappingProfile.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Application\\Configuration\\MappingProfile.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.Application\\Configuration\\MappingProfile.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Application\\Configuration\\MappingProfile.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Application\\Configuration\\MappingProfile.cs",
               "RelativeToolTip": "Poc.ShopCqrs.Application\\Configuration\\MappingProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T03:23:15.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T03:23:15.362Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 45,
               "Title": "EventStoreException.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Exceptions\\EventStoreException.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Exceptions\\EventStoreException.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\Exceptions\\EventStoreException.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Exceptions\\EventStoreException.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Exceptions\\EventStoreException.cs",
               "RelativeToolTip": "Poc.ShopCqrs.Domain\\Exceptions\\EventStoreException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:32:22.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T17:32:22.712Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 46,
               "Title": "ICacheBase.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Interfaces\\Cache\\Base\\ICacheBase.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Interfaces\\Cache\\Base\\ICacheBase.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain\\Interfaces\\Cache\\Base\\ICacheBase.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Interfaces\\Cache\\Base\\ICacheBase.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Interfaces\\Cache\\Base\\ICacheBase.cs",
               "RelativeToolTip": "Poc.ShopCqrs.Domain\\Interfaces\\Cache\\Base\\ICacheBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:16:46.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T17:16:46.647Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 43,
               "Title": "BaseController.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.API\\Controllers\\Base\\BaseController.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.API\\Controllers\\Base\\BaseController.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.API\\Controllers\\Base\\BaseController.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.API\\Controllers\\Base\\BaseController.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.API\\Controllers\\Base\\BaseController.cs",
               "RelativeToolTip": "Poc.ShopCqrs.API\\Controllers\\Base\\BaseController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:48:54.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T17:48:54.203Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 44,
               "Title": "CustomResponseViewModel.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\ViewModel\\CustomResponseViewModel.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\ViewModel\\CustomResponseViewModel.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain.Core\\ViewModel\\CustomResponseViewModel.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\ViewModel\\CustomResponseViewModel.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\ViewModel\\CustomResponseViewModel.cs",
               "RelativeToolTip": "Poc.ShopCqrs.Domain.Core\\ViewModel\\CustomResponseViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:34:15.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T17:34:15.531Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 49,
               "Title": "DataBaseConfig.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.API\\Configurations\\DataBaseConfig.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.API\\Configurations\\DataBaseConfig.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.API\\Configurations\\DataBaseConfig.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.API\\Configurations\\DataBaseConfig.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.API\\Configurations\\DataBaseConfig.cs",
               "RelativeToolTip": "Poc.ShopCqrs.API\\Configurations\\DataBaseConfig.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:51:41.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T13:51:41.913Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 47,
               "Title": "Query.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Messaging\\Query.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Messaging\\Query.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain.Core\\Messaging\\Query.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Messaging\\Query.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Messaging\\Query.cs",
               "RelativeToolTip": "Poc.ShopCqrs.Domain.Core\\Messaging\\Query.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T03:27:30.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T03:27:30.33Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 48,
               "Title": "FindCustomerByIdQuery.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Application\\Customer\\Queries\\FindCustomerByIdQuery.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Application\\Customer\\Queries\\FindCustomerByIdQuery.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.Application\\Customer\\Queries\\FindCustomerByIdQuery.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Application\\Customer\\Queries\\FindCustomerByIdQuery.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Application\\Customer\\Queries\\FindCustomerByIdQuery.cs",
               "RelativeToolTip": "Poc.ShopCqrs.Application\\Customer\\Queries\\FindCustomerByIdQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:31:24.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T15:31:24.726Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 50,
               "Title": "CreateCustomerCommandValidator.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Application\\Customer\\Commands\\Validators\\CreateCustomerCommandValidator.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Application\\Customer\\Commands\\Validators\\CreateCustomerCommandValidator.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.Application\\Customer\\Commands\\Validators\\CreateCustomerCommandValidator.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Application\\Customer\\Commands\\Validators\\CreateCustomerCommandValidator.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Application\\Customer\\Commands\\Validators\\CreateCustomerCommandValidator.cs",
               "RelativeToolTip": "Poc.ShopCqrs.Application\\Customer\\Commands\\Validators\\CreateCustomerCommandValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T16:52:03.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T16:52:03.713Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 51,
               "Title": "ServiceCollectionExtension.cs",
-              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Extensions\\ServiceCollectionExtension.cs",
+              "DocumentMoniker": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Extensions\\ServiceCollectionExtension.cs",
               "RelativeDocumentMoniker": "Poc.ShopCqrs.Domain.Core\\Extensions\\ServiceCollectionExtension.cs",
-              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Extensions\\ServiceCollectionExtension.cs",
+              "ToolTip": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Extensions\\ServiceCollectionExtension.cs",
               "RelativeToolTip": "Poc.ShopCqrs.Domain.Core\\Extensions\\ServiceCollectionExtension.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:58:42.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T13:58:42.037Z"
             }
           ]
         }

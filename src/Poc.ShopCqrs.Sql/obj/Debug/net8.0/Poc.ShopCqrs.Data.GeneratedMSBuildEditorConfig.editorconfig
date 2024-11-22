@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Poc.ShopCqrs.Data
-build_property.ProjectDir = C:\Projetos\pocs\shop_cqrs\Poc.ShopCqrs\Poc.ShopCqrs.Sql\
+build_property.ProjectDir = C:\Projetos\pocs\shop_cqrs\src\Poc.ShopCqrs.Sql\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

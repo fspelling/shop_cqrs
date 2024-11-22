@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Poc.ShopCqrs.Domain.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+246c2d76fedf35c5846681c85e6edfb517d78efd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9df46378f40ee593e723536d87119f2e47314497")]
 [assembly: System.Reflection.AssemblyProductAttribute("Poc.ShopCqrs.Domain.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Poc.ShopCqrs.Domain.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

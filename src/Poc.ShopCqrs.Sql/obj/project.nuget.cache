@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hcRFp5jYCw0=",
+  "dgSpecHash": "klgMw7C9vQQ=",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj",
+  "projectFilePath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fernando.spelling\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\fernando.spelling\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

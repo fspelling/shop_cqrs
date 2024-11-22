@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KVZqWCDPj1g=",
+  "dgSpecHash": "R9+W03kCtQ8=",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj",
+  "projectFilePath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fernando.spelling\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
     "C:\\Users\\fernando.spelling\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",

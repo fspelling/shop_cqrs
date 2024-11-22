@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj": {}
+    "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj": {
+    "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj",
+        "projectUniqueName": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj",
         "projectName": "Poc.ShopCqrs.Application",
-        "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj",
+        "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Application\\Poc.ShopCqrs.Application.csproj",
         "packagesPath": "C:\\Users\\fernando.spelling\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Application\\obj\\",
+        "outputPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,20 +33,20 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Bus\\Poc.ShopCqrs.Bus.csproj": {
-                "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Bus\\Poc.ShopCqrs.Bus.csproj"
+              "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Bus\\Poc.ShopCqrs.Bus.csproj": {
+                "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Bus\\Poc.ShopCqrs.Bus.csproj"
               },
-              "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Cache\\Poc.ShopCqrs.Cache.csproj": {
-                "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Cache\\Poc.ShopCqrs.Cache.csproj"
+              "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Cache\\Poc.ShopCqrs.Cache.csproj": {
+                "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Cache\\Poc.ShopCqrs.Cache.csproj"
               },
-              "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj": {
-                "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj"
+              "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj": {
+                "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj"
               },
-              "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj": {
-                "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj"
+              "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj"
               },
-              "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj": {
-                "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj"
+              "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj": {
+                "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Bus\\Poc.ShopCqrs.Bus.csproj": {
+    "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Bus\\Poc.ShopCqrs.Bus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Bus\\Poc.ShopCqrs.Bus.csproj",
+        "projectUniqueName": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Bus\\Poc.ShopCqrs.Bus.csproj",
         "projectName": "Poc.ShopCqrs.Bus",
-        "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Bus\\Poc.ShopCqrs.Bus.csproj",
+        "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Bus\\Poc.ShopCqrs.Bus.csproj",
         "packagesPath": "C:\\Users\\fernando.spelling\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Bus\\obj\\",
+        "outputPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Bus\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -128,11 +128,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj": {
-                "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj"
+              "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj": {
+                "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj"
               },
-              "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj": {
-                "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj"
+              "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj"
               }
             }
           }
@@ -177,14 +177,14 @@
         }
       }
     },
-    "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Cache\\Poc.ShopCqrs.Cache.csproj": {
+    "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Cache\\Poc.ShopCqrs.Cache.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Cache\\Poc.ShopCqrs.Cache.csproj",
+        "projectUniqueName": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Cache\\Poc.ShopCqrs.Cache.csproj",
         "projectName": "Poc.ShopCqrs.Cache",
-        "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Cache\\Poc.ShopCqrs.Cache.csproj",
+        "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Cache\\Poc.ShopCqrs.Cache.csproj",
         "packagesPath": "C:\\Users\\fernando.spelling\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Cache\\obj\\",
+        "outputPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Cache\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -206,8 +206,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj": {
-                "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj"
+              "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj"
               }
             }
           }
@@ -252,14 +252,14 @@
         }
       }
     },
-    "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj": {
+    "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj",
+        "projectUniqueName": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj",
         "projectName": "Poc.ShopCqrs.Domain.Core",
-        "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj",
+        "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj",
         "packagesPath": "C:\\Users\\fernando.spelling\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\obj\\",
+        "outputPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -327,14 +327,14 @@
         }
       }
     },
-    "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj": {
+    "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj",
+        "projectUniqueName": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj",
         "projectName": "Poc.ShopCqrs.Domain",
-        "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj",
+        "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj",
         "packagesPath": "C:\\Users\\fernando.spelling\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\obj\\",
+        "outputPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -356,8 +356,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj": {
-                "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj"
+              "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj": {
+                "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj"
               }
             }
           }
@@ -414,14 +414,14 @@
         }
       }
     },
-    "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj": {
+    "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj",
+        "projectUniqueName": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj",
         "projectName": "Poc.ShopCqrs.Data",
-        "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj",
+        "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Sql\\Poc.ShopCqrs.Data.csproj",
         "packagesPath": "C:\\Users\\fernando.spelling\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Sql\\obj\\",
+        "outputPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Sql\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -443,11 +443,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj": {
-                "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj"
+              "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj": {
+                "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain.Core\\Poc.ShopCqrs.Domain.Core.csproj"
               },
-              "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj": {
-                "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj"
+              "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.Domain\\Poc.ShopCqrs.Domain.csproj"
               }
             }
           }

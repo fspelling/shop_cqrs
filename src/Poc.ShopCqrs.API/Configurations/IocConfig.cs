@@ -38,7 +38,6 @@ namespace Poc.ShopCqrs.API.Configurations
             RegisterRepositorys(builder.Services);
             RegisterCache(builder.Services);
             RegisterDataEventSourcing(builder.Services);
-            RegisterEvents(builder.Services);
             RegisterCommands(builder.Services);
             RegisterQuerys(builder.Services);
         }
@@ -55,15 +54,9 @@ namespace Poc.ShopCqrs.API.Configurations
             services.AddScoped<IEventBus, EventBus>();
         }
 
-        private static void RegisterEvents(IServiceCollection services)
-        {
-            services.AddScoped<INotificationHandler<CustomerCreatedEvent>, CustomerEventHandler>();
-        }
-
         private static void RegisterCommands(IServiceCollection services)
         {
             services.AddScoped<IValidator<CreateCustomerCommand>, CreateCustomerCommandValidator>();
-            services.AddScoped<IRequestHandler<CreateCustomerCommand>, CustomerCommandHandler>();
         }
 
         private static void RegisterQuerys(IServiceCollection services)

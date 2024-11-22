@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zmb1nxgvV+U=",
+  "dgSpecHash": "Rdz48l5q1MA=",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\pocs\\shop_cqrs\\Poc.ShopCqrs\\Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj",
+  "projectFilePath": "C:\\Projetos\\pocs\\shop_cqrs\\src\\Poc.ShopCqrs.API\\Poc.ShopCqrs.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fernando.spelling\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\fernando.spelling\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
