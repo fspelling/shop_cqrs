@@ -27,12 +27,11 @@ Explorar as vantagens do CQRS e Event Sourcing, como:
 
 ## 📂 Estrutura do Projeto  
 
-/Commands -> Implementações dos comandos (Write model).
-/Queries -> Implementações das consultas (Read model).
-/Events -> Modelos de eventos e seus manipuladores.
-/Infrastructure -> Configuração e integração com tecnologias, incluindo Redis.
-/ReadModel -> Base de leitura otimizada com Redis.
-
+- Commands -> Implementações dos comandos (Write model).
+- Queries -> Implementações das consultas (Read model).
+- Events -> Modelos de eventos e seus manipuladores.
+- Infrastructure -> Configuração e integração com tecnologias, incluindo Redis.
+- ReadModel -> Base de leitura otimizada com Redis.
 
 ---
 
