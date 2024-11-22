@@ -49,8 +49,6 @@ cd nome-do-repositorio
 - Certifique-se de ter o Redis instalado e rodando.
 - Atualize as configurações no arquivo **appsettings.json**, se necessário.
 
----
-
 ### 3. Execute o Projeto
 
 No terminal ou na sua IDE de preferência, rode o projeto com o comando:
