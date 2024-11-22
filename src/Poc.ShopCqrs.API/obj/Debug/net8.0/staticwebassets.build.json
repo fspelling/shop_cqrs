@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "sZOn3Y1YlHppbl/FGA1ARPB1rAvFMpsSFgoRARcgvx0=",
+  "Source": "Poc.ShopCqrs.API",
+  "BasePath": "_content/Poc.ShopCqrs.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

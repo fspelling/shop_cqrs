@@ -1,0 +1,13 @@
+C:\Projetos\pocs\shop_cqrs\Poc.ShopCqrs\Poc.ShopCqrs.Domain.Core\bin\Debug\net8.0\Poc.ShopCqrs.Domain.Core.deps.json
+C:\Projetos\pocs\shop_cqrs\Poc.ShopCqrs\Poc.ShopCqrs.Domain.Core\bin\Debug\net8.0\Poc.ShopCqrs.Domain.Core.dll
+C:\Projetos\pocs\shop_cqrs\Poc.ShopCqrs\Poc.ShopCqrs.Domain.Core\bin\Debug\net8.0\Poc.ShopCqrs.Domain.Core.pdb
+C:\Projetos\pocs\shop_cqrs\Poc.ShopCqrs\Poc.ShopCqrs.Domain.Core\obj\Debug\net8.0\Poc.ShopCqrs.Domain.Core.csproj.AssemblyReference.cache
+C:\Projetos\pocs\shop_cqrs\Poc.ShopCqrs\Poc.ShopCqrs.Domain.Core\obj\Debug\net8.0\Poc.ShopCqrs.Domain.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\pocs\shop_cqrs\Poc.ShopCqrs\Poc.ShopCqrs.Domain.Core\obj\Debug\net8.0\Poc.ShopCqrs.Domain.Core.AssemblyInfoInputs.cache
+C:\Projetos\pocs\shop_cqrs\Poc.ShopCqrs\Poc.ShopCqrs.Domain.Core\obj\Debug\net8.0\Poc.ShopCqrs.Domain.Core.AssemblyInfo.cs
+C:\Projetos\pocs\shop_cqrs\Poc.ShopCqrs\Poc.ShopCqrs.Domain.Core\obj\Debug\net8.0\Poc.ShopCqrs.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Projetos\pocs\shop_cqrs\Poc.ShopCqrs\Poc.ShopCqrs.Domain.Core\obj\Debug\net8.0\Poc.ShopCqrs.Domain.Core.sourcelink.json
+C:\Projetos\pocs\shop_cqrs\Poc.ShopCqrs\Poc.ShopCqrs.Domain.Core\obj\Debug\net8.0\Poc.ShopCqrs.Domain.Core.dll
+C:\Projetos\pocs\shop_cqrs\Poc.ShopCqrs\Poc.ShopCqrs.Domain.Core\obj\Debug\net8.0\refint\Poc.ShopCqrs.Domain.Core.dll
+C:\Projetos\pocs\shop_cqrs\Poc.ShopCqrs\Poc.ShopCqrs.Domain.Core\obj\Debug\net8.0\Poc.ShopCqrs.Domain.Core.pdb
+C:\Projetos\pocs\shop_cqrs\Poc.ShopCqrs\Poc.ShopCqrs.Domain.Core\obj\Debug\net8.0\ref\Poc.ShopCqrs.Domain.Core.dll
