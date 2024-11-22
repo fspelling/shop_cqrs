@@ -51,13 +51,10 @@ namespace Poc.ShopCqrs.Service
                 if (entityFactory == null)
                     throw new EventStoreException("Falha na desserialização da entidade do evento.");
 
-                var factory = new RepositoryFactory(dbContext);
-                var customerRepository = (dynamic)factory.CreateRepository((EntityEnum)Enum.Parse(typeof(EntityEnum), storedEvent.EntityName!));
-
+                var customerRepository = (dynamic)RepositoryFactory.CreateRepository(_dbContext, (EntityEnum)Enum.Parse(typeof(EntityEnum), storedEvent.EntityName!));
                 await customerRepository.Atualizar(entityFactory);
 
                 var eventFactory = EventFactory.CreateCustomerEvent((CustomerEventEnum)Enum.Parse(typeof(CustomerEventEnum), storedEvent.MessageType!), storedEvent.Data!);
-
                 await _eventBus.Publish(eventFactory);
             }
         }

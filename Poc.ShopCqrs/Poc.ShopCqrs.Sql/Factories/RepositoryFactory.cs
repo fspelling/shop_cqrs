@@ -4,15 +4,13 @@ using Poc.ShopCqrs.Domain.Enums;
 
 namespace Poc.ShopCqrs.Data.Factories
 {
-    public class RepositoryFactory(ShopDbContext dbContext)
+    public static class RepositoryFactory
     {
-        private readonly ShopDbContext _dbContext = dbContext;
-
-        public object CreateRepository(EntityEnum type)
+        public static object CreateRepository(ShopDbContext dbContext, EntityEnum type)
         {
             return type switch
             {
-                EntityEnum.Customer => new CustomerRepository(_dbContext),
+                EntityEnum.Customer => new CustomerRepository(dbContext),
                 _ => throw new ArgumentException("Tipo de repositório inválido.")
             };
         }
