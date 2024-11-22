@@ -29,14 +29,14 @@ Explorar as vantagens do CQRS e Event Sourcing, como:
 
 ## 📂 Estrutura do Projeto  
 
-- API -> Camada responsável por expor os endpoints da aplicação, permitindo a comunicação com clientes externos.
-- Application -> Contém a lógica de aplicação, incluindo validações, orquestração de comandos e consultas (CQRS).
-- Service -> Responsável por implementar as regras de negócio e realizar a interação com os repositórios e outras integrações.
-- Bus -> Implementação do barramento de mensagens para comunicação assíncrona entre eventos e comandos.
-- Data -> Gerencia a persistência de dados, incluindo repositórios e o mapeamento das entidades no banco de dados.
-- Cache -> Configuração e manipulação de cache para otimizar consultas e reduzir a carga no banco de dados principal (ex.: Redis).
-- Domain -> Representa o núcleo da aplicação, contendo as entidades, eventos, interfaces e regras de domínio.
-- Domain.Core -> Fornece abstrações e funcionalidades compartilhadas, como classes base, interfaces genéricas e contratos.
+- **API** -> Camada responsável por expor os endpoints da aplicação, permitindo a comunicação com clientes externos.
+- **Application** -> Contém a lógica de aplicação, incluindo validações, orquestração de comandos e consultas (CQRS).
+- **Service** -> Responsável por implementar as regras de negócio e realizar a interação com os repositórios e outras integrações.
+- **Bus** -> Implementação do barramento de mensagens para comunicação assíncrona entre eventos e comandos.
+- **Data** -> Gerencia a persistência de dados, incluindo repositórios e o mapeamento das entidades no banco de dados.
+- **Cache** -> Configuração e manipulação de cache para otimizar consultas e reduzir a carga no banco de dados principal (ex.: Redis).
+- **Domain** -> Representa o núcleo da aplicação, contendo as entidades, eventos, interfaces e regras de domínio.
+- **Domain.Core** -> Fornece abstrações e funcionalidades compartilhadas, como classes base, interfaces genéricas e contratos.
 
 ---
 
@@ -45,14 +45,14 @@ Explorar as vantagens do CQRS e Event Sourcing, como:
 ### 1. Clone o Repositório  
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git  
-cd nome-do-repositorio
+git clone https://github.com/fspelling/shop_cqrs.git
+cd shop_cqrs
 ```
 
 ### 2. Configure os Serviços Necessários
 
 - Certifique-se de ter o Redis instalado e rodando.
-- Atualize as configurações no arquivo **appsettings.json**, se necessário.
+- Atualize as configurações das connectionStrings no arquivo **appsettings.json** da base SqlServer: **DefaultConnection** e **EventStoreConnection**.
 
 ### 3. Execute o Projeto
 
