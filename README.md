@@ -47,10 +47,20 @@ cd nome-do-repositorio
 ### 2. Configure os Serviços Necessários
 
 - Certifique-se de ter o Redis instalado e rodando.
-- **CQRS**  
-- **Event Sourcing**  
-- **Redis** (configurado como base de leitura)  
-- **Mediator**  
-- **Arquitetura Event-Driven**
+- Atualize as configurações no arquivo **appsettings.json**, se necessário.
+
+---
+
+### 3. Execute o Projeto
+
+No terminal ou na sua IDE de preferência, rode o projeto com o comando:
+
+```bash
+dotnet run  
+```
+
+### 4. Testar
+
+- Utilize ferramentas como Postman ou Swagger (se habilitado) para enviar comandos e realizar consultas.
 
 ---
