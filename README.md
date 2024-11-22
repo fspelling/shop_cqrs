@@ -18,20 +18,25 @@ Explorar as vantagens do CQRS e Event Sourcing, como:
 
 - **C#**  
 - **CQRS**  
-- **Event Sourcing**  
-- **Redis** (configurado como base de leitura)  
+- **Event Sourcing**
+- **Entity Framework Core - Sql Server**  
+- **Redis**
+- **Fluent Validation**
 - **Mediator**  
-- **Arquitetura Event-Driven**  
+- **Event-Driven**  
 
 ---
 
 ## 📂 Estrutura do Projeto  
 
-- Commands -> Implementações dos comandos (Write model).
-- Queries -> Implementações das consultas (Read model).
-- Events -> Modelos de eventos e seus manipuladores.
-- Infrastructure -> Configuração e integração com tecnologias, incluindo Redis.
-- ReadModel -> Base de leitura otimizada com Redis.
+- API -> Camada responsável por expor os endpoints da aplicação, permitindo a comunicação com clientes externos.
+- Application -> Contém a lógica de aplicação, incluindo validações, orquestração de comandos e consultas (CQRS).
+- Service -> Responsável por implementar as regras de negócio e realizar a interação com os repositórios e outras integrações.
+- Bus -> Implementação do barramento de mensagens para comunicação assíncrona entre eventos e comandos.
+- Data -> Gerencia a persistência de dados, incluindo repositórios e o mapeamento das entidades no banco de dados.
+- Cache -> Configuração e manipulação de cache para otimizar consultas e reduzir a carga no banco de dados principal (ex.: Redis).
+- Domain -> Representa o núcleo da aplicação, contendo as entidades, eventos, interfaces e regras de domínio.
+- Domain.Core -> Fornece abstrações e funcionalidades compartilhadas, como classes base, interfaces genéricas e contratos.
 
 ---
 
